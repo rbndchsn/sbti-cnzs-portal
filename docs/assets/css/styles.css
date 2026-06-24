@@ -620,3 +620,164 @@ dd {
     grid-template-columns: 1fr;
   }
 }
+
+/* ═══════════════════════════════════════════
+   REQUIREMENTS DASHBOARD
+═══════════════════════════════════════════ */
+
+.req-dashboard {
+  background: linear-gradient(135deg, #15213d, #2447ff);
+  padding: 48px 20px 56px;
+}
+
+.req-dashboard__inner {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.req-dashboard__header h2 {
+  color: #fff;
+  font-size: 1.4rem;
+  margin: 0 0 6px;
+}
+
+.req-dashboard__sub {
+  color: rgba(255,255,255,.72);
+  font-size: .92rem;
+  margin: 0 0 28px;
+}
+
+.req-filters {
+  display: flex;
+  align-items: flex-end;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+.req-filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.req-label {
+  color: rgba(255,255,255,.85);
+  font-size: .8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+}
+
+.req-select-wrap {
+  position: relative;
+}
+
+.req-select {
+  appearance: none;
+  background: rgba(255,255,255,.12);
+  border: 1px solid rgba(255,255,255,.25);
+  border-radius: 10px;
+  color: #fff;
+  font-size: .95rem;
+  padding: 10px 36px 10px 14px;
+  cursor: pointer;
+  min-width: 180px;
+}
+
+.req-select:focus {
+  outline: 2px solid rgba(255,255,255,.5);
+}
+
+.req-select option {
+  background: #15213d;
+  color: #fff;
+}
+
+.req-select-wrap::after {
+  content: '▾';
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgba(255,255,255,.7);
+  pointer-events: none;
+  font-size: .8rem;
+}
+
+.req-filter-group--count {
+  padding-bottom: 10px;
+}
+
+.req-count {
+  color: rgba(255,255,255,.6);
+  font-size: .88rem;
+}
+
+.req-results {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-height: 600px;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.req-results::-webkit-scrollbar {
+  width: 6px;
+}
+
+.req-results::-webkit-scrollbar-track {
+  background: rgba(255,255,255,.08);
+  border-radius: 3px;
+}
+
+.req-results::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,.25);
+  border-radius: 3px;
+}
+
+.req-card {
+  background: rgba(255,255,255,.08);
+  border: 1px solid rgba(255,255,255,.14);
+  border-radius: 12px;
+  padding: 16px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.req-card__section {
+  font-size: .75rem;
+  color: rgba(255,255,255,.55);
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+
+.req-card__statement {
+  margin: 0;
+  font-size: .97rem;
+  color: #fff;
+  line-height: 1.6;
+}
+
+.req-card__statement strong {
+  color: #f5c518;
+}
+
+.req-card__term {
+  display: inline-block;
+  font-size: .72rem;
+  font-weight: 700;
+  background: rgba(255,255,255,.12);
+  color: rgba(255,255,255,.8);
+  border-radius: 999px;
+  padding: 2px 10px;
+  width: fit-content;
+}
+
+.req-empty {
+  color: rgba(255,255,255,.5);
+  font-style: italic;
+  padding: 12px 0;
+}

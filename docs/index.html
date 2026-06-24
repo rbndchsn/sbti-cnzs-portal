@@ -342,11 +342,131 @@
 
   </main>
 
+  <!-- ═══════════════════════════════════════════════════════
+       REQUIREMENTS DASHBOARD
+  ═══════════════════════════════════════════════════════ -->
+  <section class="req-dashboard" id="reqDashboard">
+    <div class="req-dashboard__inner">
+      <div class="req-dashboard__header">
+        <h2>CNZS 2.0 Requirements Explorer</h2>
+        <p class="req-dashboard__sub">Filter by requirement type and terminology to browse exact statements from the standard.</p>
+      </div>
+
+      <div class="req-filters">
+        <div class="req-filter-group">
+          <label class="req-label" for="reqFilter">Requirement</label>
+          <div class="req-select-wrap">
+            <select id="reqFilter" class="req-select"></select>
+          </div>
+        </div>
+        <div class="req-filter-group">
+          <label class="req-label" for="termFilter">Terminology</label>
+          <div class="req-select-wrap">
+            <select id="termFilter" class="req-select"></select>
+          </div>
+        </div>
+        <div class="req-filter-group req-filter-group--count">
+          <span id="reqCount" class="req-count"></span>
+        </div>
+      </div>
+
+      <div id="reqResults" class="req-results"></div>
+    </div>
+  </section>
+
   <footer class="footer">
     <p>Powered by an approved Q&A database. Built with HTML, CSS, JavaScript, and JSON.</p>
   </footer>
 
   <script src="assets/js/tagsphere.js"></script>
   <script src="assets/js/app.js"></script>
+  <script>
+  (function () {
+    const REQ_URL = "data/requirements.json";
+    let allRows = [];
+
+    const reqFilter  = document.getElementById('reqFilter');
+    const termFilter = document.getElementById('termFilter');
+    const reqResults = document.getElementById('reqResults');
+    const reqCount   = document.getElementById('reqCount');
+
+    const REQ_ORDER = ['shall','should','must','may','can','need','require','encourage','provide','include'];
+
+    function escHtml(s) {
+      return String(s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+    }
+
+    function renderStatement(s) {
+      // Convert **bold** markdown to <strong>
+      return escHtml(s).replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+    }
+
+    function populateReqFilter() {
+      const reqs = REQ_ORDER.filter(r => allRows.some(row => row.requirement === r));
+      reqFilter.innerHTML = reqs.map(r =>
+        `<option value="${r}"${r === 'shall' ? ' selected' : ''}>${r.toUpperCase()}</option>`
+      ).join('');
+    }
+
+    function populateTermFilter(req) {
+      const terms = new Set();
+      allRows.filter(r => r.requirement === req).forEach(r => terms.add(r.terminology));
+      const sorted = ['All', ...([...terms].filter(t => t !== 'All').sort())];
+      termFilter.innerHTML = sorted.map(t =>
+        `<option value="${t}"${t === 'All' ? ' selected' : ''}>${escHtml(t)}</option>`
+      ).join('');
+    }
+
+    function render() {
+      const req  = reqFilter.value;
+      const term = termFilter.value;
+
+      let rows = allRows.filter(r => r.requirement === req);
+      if (term !== 'All') rows = rows.filter(r => r.terminology === term);
+
+      // Deduplicate by statement text
+      const seen = new Set();
+      rows = rows.filter(r => {
+        if (seen.has(r.statement)) return false;
+        seen.add(r.statement);
+        return true;
+      });
+
+      reqCount.textContent = `${rows.length} statement${rows.length !== 1 ? 's' : ''}`;
+
+      if (!rows.length) {
+        reqResults.innerHTML = '<p class="req-empty">No statements match this filter combination.</p>';
+        return;
+      }
+
+      reqResults.innerHTML = rows.map(r => `
+        <article class="req-card">
+          <div class="req-card__section">${escHtml(r.section)}</div>
+          <p class="req-card__statement">${renderStatement(r.statement)}</p>
+          ${r.terminology !== 'All' ? `<span class="req-card__term">${escHtml(r.terminology)}</span>` : ''}
+        </article>
+      `).join('');
+    }
+
+    reqFilter.addEventListener('change', () => {
+      populateTermFilter(reqFilter.value);
+      render();
+    });
+
+    termFilter.addEventListener('change', render);
+
+    fetch(REQ_URL)
+      .then(r => r.json())
+      .then(data => {
+        allRows = data;
+        populateReqFilter();
+        populateTermFilter('shall');
+        render();
+      })
+      .catch(() => {
+        reqResults.innerHTML = '<p class="req-empty">Could not load requirements data.</p>';
+      });
+  })();
+  </script>
 </body>
 </html>
