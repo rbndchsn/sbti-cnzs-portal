@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Approved Answer Portal</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero__ribbon">SBTi Net Zero V2</div>
+    <div class="hero__inner">
+      <p class="eyebrow eyebrow--shimmer">FREE CNZS 2.0 TOOL</p>
+      <h1>AI-drafted. Expert-approved. Ready to cite.</h1>
+      <p class="lead">
+        Every Q&A on the <a href="https://sciencebasedtargets.org/corporate-net-zero-standard-v2" target="_blank" rel="noopener" class="hero-link">SBTi Corporate Net-Zero Standard V2.0</a> is AI-built and expert-approved.
+        Search, pick the question you mean, and get a vetted answer that cites the exact section
+        it rests on.
+      </p>
+      <p class="gar-note">
+        Governed Answer Retrieval (GAR) is my innovative fix for Retrieval-Augmented Generation (RAG). A RAG chatbot retrieves a
+        fragment of the source and then generates an answer from that slice, so it is almost always
+        incomplete and can be confidently wrong, while GAR settles and expert-approves every answer
+        before you arrive.
+      </p>
+      <div class="badges">
+        <span>Expert-approved</span>
+        <span>Cites the exact section</span>
+        <span>No hallucinations</span>
+      </div>
+    </div>
+    <a class="hero__link" href="https://www.linkedin.com/in/robin-duchesneau/" target="_blank" rel="noopener">https://www.linkedin.com/in/robin-duchesneau/</a>
+  </header>
+
+  <!-- ═══════════════════════════════════════════════════════
+       V2.0 CHANGES CAROUSEL
+  ═══════════════════════════════════════════════════════ -->
+  <section class="changes-carousel-section" aria-label="Key changes in V2.0">
+    <div class="changes-carousel-header">
+      <h2>Key changes in Corporate Net-Zero Standard V2.0</h2>
+      <p class="changes-carousel-sub">Scroll through all section-by-section revisions</p>
+    </div>
+    <div class="changes-carousel-wrapper">
+      <div class="changes-carousel-track" id="changesTrack" aria-live="polite"></div>
+    </div>
+    <div class="changes-carousel-controls">
+      <button class="carousel-btn carousel-prev" id="carouselPrev" aria-label="Previous">&#8592;</button>
+      <button class="carousel-btn carousel-stop" id="carouselStop" aria-label="Stop autoplay">&#9646;&#9646;</button>
+      <button class="carousel-btn carousel-play" id="carouselPlay" aria-label="Resume autoplay" hidden>&#9654;</button>
+      <button class="carousel-btn carousel-next" id="carouselNext" aria-label="Next">&#8594;</button>
+    </div>
+    <div class="changes-carousel-pips" id="carouselPips" aria-hidden="true"></div>
+  </section>
+
+  <script>
+  (function () {
+    const CHANGES = [
+      {
+        section: "Section B — Standard & System Overview",
+        type: "New",
+        criterion: "",
+        detail: "V2.0 adds a dedicated architecture chapter covering terminology, assurance, claims, sector standards, applicability, and governance of the SBTi system."
+      },
+      {
+        section: "Section B.3 — Company categorization",
+        type: "Modified",
+        criterion: "",
+        detail: "V1 approached SMEs separately. V2 introduces formal company categorization (Category A and B) with differentiated obligations based on turnover, geography, emissions, and employee thresholds."
+      },
+      {
+        section: "Section B.3 — Fossil fuel company applicability",
+        type: "Modified",
+        criterion: "",
+        detail: "V2 formalizes restrictions for fossil fuel companies by explicitly linking them to a dedicated Fossil Fuel Policy. This replaces C36 and C37."
+      },
+      {
+        section: "Section B.4 — Assurance model",
+        type: "New",
+        criterion: "",
+        detail: "V2 introduces a formalized assurance model with target validation and end-of-cycle assessments conducted by recognized validation bodies."
+      },
+      {
+        section: "Section 1 — Net-zero governance",
+        type: "New",
+        criterion: "CNZS-C1, C2",
+        detail: "V2 introduces mandatory governance, board accountability, transition planning, and disclosure requirements that were not explicit criteria in V1."
+      },
+      {
+        section: "Section 2.1 — Organizational and operational boundaries",
+        type: "Modified",
+        criterion: "CNZS-C3",
+        detail: "V2 expands and formalizes requirements on organizational boundaries, subsidiaries, and parent company disclosure."
+      },
+      {
+        section: "Section 2.2 — Selecting a target base year",
+        type: "Modified",
+        criterion: "CNZS-C4",
+        detail: "V2 replaces the historical base year approach with a target base year based on the most recent comprehensive data available. Companies may continue communicating targets relative to earlier historical reference years if equivalence is validated."
+      },
+      {
+        section: "Section 2.3 — Target base year GHG inventory",
+        type: "Modified",
+        criterion: "CNZS-C5",
+        detail: "V2 expands inventory requirements to include low-carbon electricity metrics, physical inventories, market instruments (reported separately), and LSRS-aligned accounting."
+      },
+      {
+        section: "Section 2.4 — Identification of EIAs",
+        type: "New",
+        criterion: "CNZS-C6",
+        detail: "For Category A companies, V2 introduces mandatory identification and quantification of emissions-intensive activities (EIAs), and reporting of EIAs representing at least 5% of scope 3 emissions."
+      },
+      {
+        section: "Section 2.5 — Third-party assurance",
+        type: "New",
+        criterion: "CNZS-C7",
+        detail: "V2 introduces mandatory limited assurance requirements for Category A companies covering inventories and target-setting metrics."
+      },
+      {
+        section: "Section 2.6 — Target base year recalculation",
+        type: "Modified",
+        criterion: "CNZS-C8",
+        detail: "V2 strengthens recalculation requirements by introducing a differentiated approach to significant changes that trigger target base year and metrics reassessment across the target cycle."
+      },
+      {
+        section: "Section 3.2 — Scope 1 targets",
+        type: "New",
+        criterion: "CNZS-C10, C11",
+        detail: "V2 introduces separate scope 1 targets covering 100% of direct emissions. It adds an asset transition option for long-lived capital stock. Long-term targets are required only for companies setting near-term intensity or asset transition targets."
+      },
+      {
+        section: "Section 3.3 — Scope 2 targets",
+        type: "Modified",
+        criterion: "CNZS-C12, C13",
+        detail: "V2 introduces separate scope 2 targets covering 100% of purchased electricity, heat, steam, and cooling. Alignment targets are revised from renewable to low-carbon electricity. Intensity targets removed. Scope 2 emissions targets are based only on the physical (location-based) inventory."
+      },
+      {
+        section: "Section 3.4 — Scope 3 target boundary",
+        type: "Modified",
+        criterion: "CNZS-C14",
+        detail: "V2 replaces fixed-percentage coverage thresholds with a significance-based approach, requiring coverage of all scope 3 categories representing at least 5% of categories 1–14 emissions. Optional exclusions are allowed for named categories where companies lack practical ability to influence outcomes."
+      },
+      {
+        section: "Section 3.4 — Scope 3 target-setting options",
+        type: "Modified / New",
+        criterion: "CNZS-C15",
+        detail: "V2 expands supplier/customer engagement targets into alignment pathways. Introduces volume, product use, and product end-of-life alignment methods. Removes economic and physical intensity methods. Long-term scope 3 targets are optional for all companies."
+      },
+      {
+        section: "Section 3.5 — Target revision",
+        type: "Modified",
+        criterion: "CNZS-C20",
+        detail: "V2 retires the mandatory five-year review as all targets are now set on a 5-year basis. Replaces it with a continuous evaluation approach focused on identifying significant changes that may cause targets to become non-conformant."
+      },
+      {
+        section: "Section 4 — Target implementation hierarchy",
+        type: "New",
+        criterion: "CNZS-C21–C24",
+        detail: "V2 introduces an implementation hierarchy that prioritizes direct, activity-level emissions reductions before allowing actions within shared systems (activity pools) or at the sector level."
+      },
+      {
+        section: "Section 4 — Actions and Market instruments integrity criteria",
+        type: "New",
+        criterion: "CNZS-C25–C28",
+        detail: "V2 establishes comprehensive integrity criteria for all actions, projects, and market instruments, ensuring verifiability, temporal alignment, and prevention of double-counting. Market instruments and certificates are recognized subject to volume matching and tracking registry requirements."
+      },
+      {
+        section: "Section 4 — Application to electricity",
+        type: "New",
+        criterion: "CNZS-C29–C34",
+        detail: "V2 defines normative criteria for electricity market instruments (PPAs, low-carbon electricity contracts, unbundled EACs) including geographic matching and a 15-year generator age limit. Significant electricity users must measure and disclose hourly low-carbon electricity performance."
+      },
+      {
+        section: "Section 4 — Bio-based feedstocks",
+        type: "New",
+        criterion: "CNZS-C35",
+        detail: "V2 requires bio-based feedstocks used for target implementation to meet recognized third-party and SBTi minimum sustainability criteria, prohibiting association with deforestation or conversion of natural ecosystems."
+      },
+      {
+        section: "Section 5 — Annual reporting",
+        type: "Modified",
+        criterion: "CNZS-C36",
+        detail: "V2 significantly expands annual reporting requirements with more granular and structured disclosures on target progress, including descriptions of actions taken and barriers faced."
+      },
+      {
+        section: "Section 5 — End-of-cycle assessment",
+        type: "New",
+        criterion: "CNZS-C37",
+        detail: "V2 introduces a structured end-of-cycle assessment process supported by full-scope GHG inventories, separate reporting of actions and instruments, enhanced transparency on barriers, and third-party assurance for Category A companies."
+      },
+      {
+        section: "Sections 6.1–6.4 — Ongoing emissions responsibility",
+        type: "Modified",
+        criterion: "CNZS-C39–C44",
+        detail: "V2 standardizes the 'beyond value chain mitigation' recommendation into a broader optional ongoing emissions responsibility (OER) recognition framework, including voluntary recognition for companies delivering climate contributions."
+      },
+      {
+        section: "Section 6.6 — Post-2035 responsibility requirement",
+        type: "Modified",
+        criterion: "CNZS-C45",
+        detail: "V2 standardizes neutralization milestones into the broader OER framework with a mandatory removal requirement for Category A companies from 2035 onward."
+      },
+      {
+        section: "Section 6.6 — Neutralization of residual emissions",
+        type: "Modified",
+        criterion: "CNZS-C46",
+        detail: "V2 integrates neutralization into the OER framework and expands it by introducing requirements for storage durability of carbon removal activities, responsibility for direct and indirect emissions, double-counting conditions, and neutralization reporting requirements."
+      }
+    ];
+
+    const PER_PAGE = 3;
+    const INTERVAL_MS = 3000;
+    let current = 0;
+    let timer = null;
+    let running = true;
+
+    const track   = document.getElementById('changesTrack');
+    const pips    = document.getElementById('carouselPips');
+    const btnPrev = document.getElementById('carouselPrev');
+    const btnNext = document.getElementById('carouselNext');
+    const btnStop = document.getElementById('carouselStop');
+    const btnPlay = document.getElementById('carouselPlay');
+
+    const totalPages = Math.ceil(CHANGES.length / PER_PAGE);
+
+    // Build pip dots
+    for (let i = 0; i < totalPages; i++) {
+      const d = document.createElement('span');
+      d.className = 'pip';
+      d.setAttribute('data-page', i);
+      d.addEventListener('click', () => goTo(i));
+      pips.appendChild(d);
+    }
+
+    function renderPage(page) {
+      const start = page * PER_PAGE;
+      const slice = CHANGES.slice(start, start + PER_PAGE);
+      track.innerHTML = '';
+      slice.forEach(c => {
+        const card = document.createElement('article');
+        card.className = 'change-card change-card--' + (c.type === 'New' ? 'new' : 'modified');
+        card.innerHTML =
+          '<span class="change-badge">' + c.type + '</span>' +
+          '<h3 class="change-section">' + c.section + '</h3>' +
+          (c.criterion ? '<p class="change-criterion">' + c.criterion + '</p>' : '') +
+          '<p class="change-detail">' + c.detail + '</p>';
+        track.appendChild(card);
+      });
+      // Update pips
+      Array.from(pips.children).forEach((d, i) => {
+        d.classList.toggle('pip--active', i === page);
+      });
+    }
+
+    function goTo(page) {
+      current = (page + totalPages) % totalPages;
+      renderPage(current);
+    }
+
+    function advance() { goTo(current + 1); }
+
+    function startTimer() {
+      stopTimer();
+      timer = setInterval(advance, INTERVAL_MS);
+    }
+
+    function stopTimer() {
+      if (timer) { clearInterval(timer); timer = null; }
+    }
+
+    btnPrev.addEventListener('click', () => { goTo(current - 1); if (running) startTimer(); });
+    btnNext.addEventListener('click', () => { goTo(current + 1); if (running) startTimer(); });
+
+    btnStop.addEventListener('click', () => {
+      running = false;
+      stopTimer();
+      btnStop.hidden = true;
+      btnPlay.hidden = false;
+    });
+
+    btnPlay.addEventListener('click', () => {
+      running = true;
+      startTimer();
+      btnPlay.hidden = true;
+      btnStop.hidden = false;
+    });
+
+    // Init
+    goTo(0);
+    startTimer();
+  })();
+  </script>
+
+  <main class="layout">
+    <section class="card search-card">
+      <label for="searchInput" class="label">Ask a question</label>
+      <div class="search-row">
+        <input id="searchInput" type="search" placeholder="Example: Should companies use Version 1.3.1 or Version 2.0 of the Standard for setting targets?" autocomplete="off">
+        <button id="searchButton">Search</button>
+      </div>
+      <p class="hint">
+        What this site does not do is run a large language model (LLM) to generate answers from retrieved text. It does something better. It matches your question to existing approved questions with a keyword-matching algorithm. Ask your question, then select a suggested approved question below to see its vetted answer.
+      </p>
+      <div id="message" class="message" aria-live="polite"></div>
+    </section>
+
+    <section class="card" id="suggestedCard">
+      <h2 id="resultsTitle">Suggested questions</h2>
+      <div id="results" class="results empty-state">
+        Type a question above or select a tag below. Approved questions will be shown here for you to choose.
+      </div>
+    </section>
+
+    <section class="card answer-card" id="answerCard">
+      <div class="answer-header">
+        <div>
+          <p class="eyebrow">Approved answer</p>
+          <h2 id="answerQuestion"></h2>
+        </div>
+        <button id="clearAnswer" class="secondary" hidden>Clear</button>
+      </div>
+      <div id="answerText" class="answer-text answer-placeholder">
+        The expert-approved answer will appear here, with its source section and metadata.
+      </div>
+      <dl class="metadata" id="answerMeta" hidden>
+        <div><dt>Source</dt><dd id="answerSource"></dd></div>
+        <div><dt>Section</dt><dd id="answerSection"></dd></div>
+        <div><dt>Owner</dt><dd id="answerOwner"></dd></div>
+        <div><dt>Last reviewed</dt><dd id="answerReviewed"></dd></div>
+        <div><dt>Version</dt><dd id="answerVersion"></dd></div>
+      </dl>
+    </section>
+
+    <section class="card tag-card">
+      <h2>Browse by tag</h2>
+      <div id="tagCloud" class="tag-cloud"></div>
+    </section>
+
+    <section class="card popular-card">
+      <h2>Browse approved questions</h2>
+      <div id="popularQuestions" class="question-list"></div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>Powered by an approved Q&A database. Built with HTML, CSS, JavaScript, and JSON.</p>
+  </footer>
+
+  <script src="assets/js/tagsphere.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
