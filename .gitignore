@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.env
+.venv
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Source PDFs — large files, kept locally only
+content_factory/sources/*.pdf
+
+# Google Sheets shortcut
+*.gsheet
+
+# Intermediate extraction files
+content_factory/staging/*.jsonl
