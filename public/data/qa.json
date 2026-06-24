@@ -951,6 +951,1438 @@
     "version": "2.0"
   },
   {
+    "id": "KQ-026",
+    "question": "What must companies do to set a net-zero target under the Corporate Net-Zero Standard V2.0?",
+    "answer": "Net-zero targets. Intent: To ensure that any company setting a net-zero target does so on the basis of comprehensive near-term and long-term targets covering all scope 1, scope 2, and scope 3 emissions, and reaches a state of net-zero through deep emissions reductions and the neutralization of residual emissions. CNZS-C17. Companies that choose to set a net-zero target shall establish near-term and long-term targets covering scope 1, scope 2, and scope 3 emissions, and neutralize any residual emissions. This criterion CNZS-C17 is optional for company categories A and B.",
+    "alternate_questions": [
+      "What is CNZS-C17?",
+      "Is a net-zero target mandatory under SBTi V2.0?",
+      "What is required to claim net-zero under SBTi?"
+    ],
+    "tags": [
+      "net-zero targets",
+      "CNZS-C17",
+      "scope 1",
+      "scope 2",
+      "scope 3",
+      "near-term targets",
+      "long-term targets",
+      "residual emissions",
+      "neutralization",
+      "Category A",
+      "Category B"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0",
+    "source_section": "CNZS-C17 Net-Zero Targets",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
+  },
+  {
+    "id": "KQ-027",
+    "question": "What does the Corporate Net-Zero Standard require for reporting target information after validation?",
+    "answer": "Reporting target information. Intent: To drive transparency by requiring companies to report clear, consistent, and timely information about their target base year and targets. CNZS-C18. Companies shall report target information after completing the validation process. This criterion CNZS-C18 applies to company categories A and B.",
+    "alternate_questions": [
+      "What is CNZS-C18?",
+      "When must companies report their SBTi targets?",
+      "What information must be disclosed after target validation?"
+    ],
+    "tags": [
+      "reporting",
+      "CNZS-C18",
+      "target information",
+      "validation",
+      "transparency",
+      "disclosure",
+      "Category A",
+      "Category B"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0",
+    "source_section": "CNZS-C18 Reporting Target Information",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
+  },
+  {
+    "id": "KQ-028",
+    "question": "What are the transparency requirements for companies that consolidate multiple Scope 3 targets into a single headline ambition?",
+    "answer": "Reporting target information. Intent: To drive transparency by requiring companies to report clear, consistent, and timely information about their target base year and targets. CNZS-C19. Companies that consolidate multiple scope 3 targets into a single \"headline ambition\" shall ensure that the headline ambition transparently communicates the intended outcome of the consolidated targets. This criterion CNZS-C19 is optional for company categories A and B.",
+    "alternate_questions": [
+      "What is CNZS-C19?",
+      "Can scope 3 targets be combined into one ambition statement?",
+      "What is a headline ambition under SBTi?"
+    ],
+    "tags": [
+      "headline ambition",
+      "CNZS-C19",
+      "scope 3",
+      "consolidated targets",
+      "transparency",
+      "reporting",
+      "Category A",
+      "Category B"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0",
+    "source_section": "CNZS-C19 Headline Ambition Reporting",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
+  },
+  {
+    "id": "KQ-029",
+    "question": "When must companies revise their targets under the Corporate Net-Zero Standard V2.0?",
+    "answer": "Target revision. Intent: To ensure that targets remain valid, science-based, and aligned with the effective SBTi Standards over time by requiring companies to revise targets where necessary following significant structural or methodological changes. CNZS-C20. Companies shall revise their targets where significant changes result in targets that no longer conform to the Corporate Net-Zero Standard or any applicable SBTi Sector Standard. This criterion CNZS-C20 applies to company categories A and B.",
+    "alternate_questions": [
+      "What is CNZS-C20?",
+      "When do SBTi targets need to be updated?",
+      "What triggers a target revision?"
+    ],
+    "tags": [
+      "target revision",
+      "CNZS-C20",
+      "significant changes",
+      "Sector Standard",
+      "conformance",
+      "methodological changes",
+      "structural changes",
+      "Category A",
+      "Category B"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0",
+    "source_section": "CNZS-C20 Target Revision",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
+  },
+  {
+    "id": "KQ-030",
+    "question": "How must companies account for and report mitigation actions and market instruments that fall outside their physical GHG inventory?",
+    "answer": "To enable recognition of a broader range of mitigation efforts, companies may also undertake actions and use market instruments that are not reflected in their physical GHG inventories. Such actions shall be accounted for and reported separately to ensure transparency while recognizing their contribution to decarbonization beyond companies' physical GHG inventories.",
+    "alternate_questions": [
+      "How are market instruments reported under SBTi V2.0?",
+      "What mitigation actions fall outside the GHG inventory?",
+      "How are off-inventory actions treated under the Corporate Net-Zero Standard?"
+    ],
+    "tags": [
+      "market instruments",
+      "GHG inventory",
+      "mitigation actions",
+      "transparency",
+      "reporting",
+      "decarbonization",
+      "off-inventory"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0",
+    "source_section": "Target Implementation / Market Instruments",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
+  },
+  {
+    "id": "KQ-031",
+    "question": "How does the Corporate Net-Zero Standard V2.0 address emissions from shared systems that companies purchase from or feed into — such as electricity grids, gas grids, supply sheds, or logistics networks (activity pools) — and what actions are permitted when direct action is structurally constrained?",
+    "answer": "In many cases, emissions arise within shared systems that companies purchase from or feed into, such as electricity grids, gas grids, supply sheds, or logistics networks – referred to as activity pools. Where emissions are embedded in such a system, a company can take action within the same activity pool to decarbonize the system serving the company. Over time, such actions contribute to physically reducing emissions associated with the company's underlying activities. In some situations, structural constraints may limit action at the activity or activity pool level within the target timeframe. These constraints may include technological, infrastructural, regulatory, or market limitations. In such cases, action may occur at the sector level, provided the actions mirror the relevant emissions sources and support the transition of the sector in which those emissions arise. Actions at the activity pool or sector level, including the use of market instruments, can contribute to broader system-level decarbonization as interim measures until the opportunity to take direct action in operations and value chains is available. These actions may include, for example, the purchase of energy attribute certificates (e.g., for electricity or gas) and commodity certificates that rely on different chain-of-custody models (such as mass balance or book-and-claim). Where such actions are not reflected in a company's physical GHG inventory, they are reported separately.",
+    "alternate_questions": [
+      "What are activity pools under SBTi V2.0?",
+      "Can companies act at the sector level when direct action is not possible?",
+      "How are energy attribute certificates treated under the Corporate Net-Zero Standard?"
+    ],
+    "tags": [
+      "activity pools",
+      "electricity grids",
+      "gas grids",
+      "supply sheds",
+      "logistics networks",
+      "sector-level action",
+      "market instruments",
+      "energy attribute certificates",
+      "commodity certificates",
+      "mass balance",
+      "book-and-claim",
+      "structural constraints",
+      "GHG inventory"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0",
+    "source_section": "Target Implementation / Activity Pools and Sector-Level Action",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
+  },
+  {
+    "id": "KQ-032",
+    "question": "What are enabling actions under the Corporate Net-Zero Standard V2.0 and when are companies encouraged to take them?",
+    "answer": "Where companies cannot take sufficient action within the target timeframe, they are encouraged to take enabling actions that help address underlying constraints and support future emissions reductions, such as contributing to the development of necessary technologies, infrastructure, or supply systems. Enabling action is an action taken by a company to address structural constraints that limit emissions reductions within the target timeframe. Enabling actions are intended to support future decarbonization by contributing to the development of technologies, infrastructure, supply systems, policy frameworks, or market conditions necessary for emissions reductions.",
+    "alternate_questions": [
+      "What is an enabling action under SBTi V2.0?",
+      "What can companies do when they cannot meet targets within the timeframe?",
+      "How does SBTi treat contributions to technology or infrastructure development?"
+    ],
+    "tags": [
+      "enabling actions",
+      "structural constraints",
+      "decarbonization",
+      "technologies",
+      "infrastructure",
+      "supply systems",
+      "policy frameworks",
+      "market conditions",
+      "target timeframe"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0",
+    "source_section": "Target Implementation / Enabling Actions",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
+  },
+  {
+    "id": "KQ-033",
+    "question": "What are the geographic and temporal matching requirements for Scope 2 electricity under the Corporate Net-Zero Standard V2.0?",
+    "answer": "The Corporate Net-Zero Standard V2.0 requires geographical matching of electricity consumption, either directly or through attributes, based on deliverability regions. Matching can also extend beyond a deliverability region to interconnected regions where a contract is supported by interconnector access rights or a power purchase agreement for a low-carbon project. Where structural barriers exist, companies can take sector-level actions for an interim period while simultaneously taking measures to overcome the barriers. While annual matching has historically been used in scope 2 accounting, more granular approaches are increasingly being adopted to better reflect the temporal relationship between electricity consumption and generation. Hourly matching can strengthen the credibility of scope 2–related claims and better align electricity demand with low-carbon supply. It can support stronger price signals and investment incentives for flexibility, demand response, energy storage, and new low-carbon generation technologies.",
+    "alternate_questions": [
+      "What is geographic matching for scope 2?",
+      "What is hourly matching under SBTi V2.0?",
+      "How must electricity attributes be matched under the Corporate Net-Zero Standard?"
+    ],
+    "tags": [
+      "scope 2",
+      "geographic matching",
+      "temporal matching",
+      "deliverability regions",
+      "hourly matching",
+      "annual matching",
+      "energy attribute certificates",
+      "power purchase agreement",
+      "interconnector",
+      "low-carbon generation",
+      "structural barriers"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0",
+    "source_section": "Target Implementation / Scope 2 Geographic and Temporal Matching",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
+  },
+  {
+    "id": "KQ-034",
+    "question": "What does the Corporate Net-Zero Standard V2.0 require and offer regarding hourly matching of Scope 2 electricity consumption?",
+    "answer": "To improve transparency while hourly matching practices further develop, the Corporate Net-Zero Standard V2.0 requires Category A companies with large electricity loads to report the percentage of scope 2 electricity consumption matched with low-carbon electricity attributes on an hourly basis. The Corporate Net-Zero Standard also includes an optional recognition framework for companies that meet specified hourly matching thresholds for target implementation; this highlights leadership in aligning electricity demand with low-carbon generation, while encouraging adoption of more granular accounting approaches as the GHG Protocol evolves its scope 2 requirements. To inform future revisions of the Corporate Net-Zero Standard, the SBTi intends to launch a Call for Evidence to better understand how hourly matching should be deployed in the context of a target-setting program, and, specifically, how voluntary action can complement market dynamics and policy incentives.",
+    "alternate_questions": [
+      "What is the hourly matching requirement for Category A companies?",
+      "Is hourly matching mandatory under SBTi V2.0?",
+      "What is the recognition framework for hourly matching?"
+    ],
+    "tags": [
+      "hourly matching",
+      "scope 2",
+      "Category A",
+      "large electricity loads",
+      "low-carbon electricity",
+      "recognition framework",
+      "GHG Protocol",
+      "Call for Evidence",
+      "transparency",
+      "market dynamics"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0",
+    "source_section": "Target Implementation / Hourly Matching",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
+  },
+  {
+    "id": "KQ-035",
+    "question": "What is the implementation hierarchy under the Corporate Net-Zero Standard V2.0 and how must companies prioritize emissions reduction actions?",
+    "answer": "Implementation hierarchy. Intent: To establish an implementation hierarchy that prioritizes emissions reductions as close as possible to the source, while enabling credible and systemically relevant action at the activity pool or sector level where sufficient decarbonization is not feasible within the required timeframe. CNZS-C21. Companies shall prioritize activity-level actions to reduce emissions from their operations and value chains before pursuing more indirect action. This criterion CNZS-C21 applies to company categories A and B.",
+    "alternate_questions": [
+      "What is CNZS-C21?",
+      "Must companies reduce emissions directly before using market instruments?",
+      "What is the order of priority for emissions reduction actions under SBTi?"
+    ],
+    "tags": [
+      "implementation hierarchy",
+      "CNZS-C21",
+      "activity-level actions",
+      "operations",
+      "value chain",
+      "indirect action",
+      "activity pool",
+      "sector level",
+      "decarbonization",
+      "Category A",
+      "Category B"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0",
+    "source_section": "CNZS-C21 Implementation Hierarchy",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
+  },
+  {
+    "id": "KQ-036",
+    "question": "How must companies define activity pool boundaries when taking action at the activity pool level under the Corporate Net-Zero Standard V2.0?",
+    "answer": "Implementation hierarchy. Intent: To establish an implementation hierarchy that prioritizes emissions reductions as close as possible to the source, while enabling credible and systemically relevant action at the activity pool or sector level where sufficient decarbonization is not feasible within the required timeframe. When taking action at the activity pool level, companies shall define the activity pool boundary at the smallest reasonable geographic or operational level within which emissions from the relevant activity can be collectively decarbonized. This criterion applies to company category A and company category B.",
+    "alternate_questions": [
+      "What is an activity pool boundary?",
+      "How granular must activity pool boundaries be under SBTi?",
+      "What geographic level applies to activity pool actions?"
+    ],
+    "tags": [
+      "activity pool",
+      "activity pool boundary",
+      "geographic boundary",
+      "operational boundary",
+      "decarbonization",
+      "implementation hierarchy",
+      "Category A",
+      "Category B"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0",
+    "source_section": "CNZS-C21 Implementation Hierarchy / Activity Pool Boundary",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
+  },
+  {
+    "id": "KQ-037",
+    "question": "What must companies demonstrate before taking sector-level actions under the Corporate Net-Zero Standard V2.0?",
+    "answer": "Implementation hierarchy. Intent: To establish an implementation hierarchy that prioritizes emissions reductions as close as possible to the source, while enabling credible and systemically relevant action at the activity pool or sector level where sufficient decarbonization is not feasible within the required timeframe. When taking sector-level actions, companies shall demonstrate that structural constraints prevent action at the activity or activity pool level within the target timeframe. This criterion applies to company category A and company category B.",
+    "alternate_questions": [
+      "What justifies sector-level action under SBTi V2.0?",
+      "When can companies act at the sector level?",
+      "What structural constraints allow sector-level action?"
+    ],
+    "tags": [
+      "sector-level action",
+      "structural constraints",
+      "implementation hierarchy",
+      "activity pool",
+      "target timeframe",
+      "Category A",
+      "Category B"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0",
+    "source_section": "CNZS-C21 Implementation Hierarchy / Sector-Level Actions",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
+  },
+  {
+    "id": "KQ-038",
+    "question": "What reporting is required when companies take action at the activity pool or sector level to support target implementation?",
+    "answer": "Implementation hierarchy. Intent: To establish an implementation hierarchy that prioritizes emissions reductions as close as possible to the source, while enabling credible and systemically relevant action at the activity pool or sector level where sufficient decarbonization is not feasible within the required timeframe. Companies taking action at the activity pool or sector level to support target implementation shall report these actions. This criterion CNZS-C24 applies to company categories A and B.",
+    "alternate_questions": [
+      "What is CNZS-C24?",
+      "Must companies disclose activity pool or sector-level actions?",
+      "How are sector-level actions reported under SBTi V2.0?"
+    ],
+    "tags": [
+      "CNZS-C24",
+      "reporting",
+      "activity pool",
+      "sector-level action",
+      "target implementation",
+      "transparency",
+      "Category A",
+      "Category B"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0",
+    "source_section": "CNZS-C24 Implementation Hierarchy / Reporting",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
+  },
+  {
+    "id": "KQ-039",
+    "question": "What integrity criteria must companies apply to actions and market instruments used to support target implementation under the Corporate Net-Zero Standard V2.0?",
+    "answer": "Actions & market instruments integrity criteria. Intent: To ensure that actions and market instruments in support of target implementation deliver credible, high-integrity outcomes that reflect real-world emissions reductions and support system-wide decarbonization. CNZS-C25. Companies shall ensure that actions, including projects and market instruments, taken to support target implementation meet relevant integrity criteria. This criterion CNZS-C25 applies to company categories A and B.",
+    "alternate_questions": [
+      "What is CNZS-C25?",
+      "What makes a market instrument high-integrity under SBTi?",
+      "What criteria apply to actions supporting SBTi targets?"
+    ],
+    "tags": [
+      "CNZS-C25",
+      "integrity criteria",
+      "market instruments",
+      "actions",
+      "projects",
+      "target implementation",
+      "decarbonization",
+      "Category A",
+      "Category B"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0",
+    "source_section": "CNZS-C25 Actions & Market Instruments Integrity",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
+  },
+  {
+    "id": "KQ-040",
+    "question": "What project integrity criteria must companies meet when using projects to support target implementation under the Corporate Net-Zero Standard V2.0?",
+    "answer": "Actions & market instruments integrity criteria. Intent: To ensure that actions and market instruments in support of target implementation deliver credible, high-integrity outcomes that reflect real-world emissions reductions and support system-wide decarbonization. CNZS-C26. Companies shall ensure that any projects used to support target implementation meet recognized third-party integrity criteria, where applicable, and SBTi minimum integrity criteria. This criterion applies to company categories A and B.",
+    "alternate_questions": [
+      "What is CNZS-C26?",
+      "What third-party standards apply to projects under SBTi V2.0?",
+      "What are SBTi minimum integrity criteria for projects?"
+    ],
+    "tags": [
+      "CNZS-C26",
+      "project integrity",
+      "third-party criteria",
+      "SBTi minimum integrity",
+      "target implementation",
+      "market instruments",
+      "Category A",
+      "Category B"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0",
+    "source_section": "CNZS-C26 Actions & Market Instruments Integrity / Projects",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
+  },
+  {
+    "id": "KQ-041",
+    "question": "What integrity criteria must companies meet when using market instruments to support target implementation under the Corporate Net-Zero Standard V2.0?",
+    "answer": "Actions & market instruments integrity criteria. Intent: To ensure that actions and market instruments in support of target implementation deliver credible, high-integrity outcomes that reflect real-world emissions reductions and support system-wide decarbonization. CNZS-C27. Companies shall ensure that any market instruments used to support target implementation meet recognized third-party integrity criteria, where applicable, and SBTi minimum integrity criteria. This criterion CNZS-C27 applies to company categories A and B.",
+    "alternate_questions": [
+      "What is CNZS-C27?",
+      "What third-party standards apply to market instruments under SBTi V2.0?",
+      "What are SBTi minimum integrity criteria for market instruments?"
+    ],
+    "tags": [
+      "CNZS-C27",
+      "market instruments",
+      "integrity criteria",
+      "third-party criteria",
+      "SBTi minimum integrity",
+      "target implementation",
+      "Category A",
+      "Category B"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0",
+    "source_section": "CNZS-C27 Actions & Market Instruments Integrity / Market Instruments",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
+  },
+  {
+    "id": "KQ-042",
+    "question": "What tracking and anti-double-counting requirements apply to energy attribute and commodity certificates used to support target implementation under the Corporate Net-Zero Standard V2.0?",
+    "answer": "Actions & market instruments integrity criteria. Intent: To ensure that actions and market instruments in support of target implementation deliver credible, high-integrity outcomes that reflect real-world emissions reductions and support system-wide decarbonization. CNZS-C28. Companies shall ensure that any energy attribute and commodity certificates used to support target implementation are issued, transferred, and retired through transparent, secure tracking systems that prevent double counting. This criterion CNZS-C28 applies to company categories A and B, except sub-criterion C28.2, which is Category A only.",
+    "alternate_questions": [
+      "What is CNZS-C28?",
+      "How must energy attribute certificates be tracked under SBTi V2.0?",
+      "How does SBTi prevent double counting of certificates?"
+    ],
+    "tags": [
+      "CNZS-C28",
+      "energy attribute certificates",
+      "commodity certificates",
+      "tracking systems",
+      "double counting",
+      "transparency",
+      "Category A",
+      "Category B"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0",
+    "source_section": "CNZS-C28 Actions & Market Instruments Integrity / Certificate Tracking",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
+  },
+  {
+    "id": "KQ-043",
+    "question": "How must companies prioritize actions when decarbonizing electricity consumption under the Corporate Net-Zero Standard V2.0?",
+    "answer": "Applying the implementation hierarchy to electricity consumption. Intent: To drive meaningful decarbonization of electricity consumption in both operations and value chains by focusing actions on the sources of electricity use while supporting the transition of the systems on which they depend. The relevant criteria set out earlier in this chapter apply equally to electricity-related actions. Companies shall therefore ensure that implementation actions for electricity meet all applicable requirements, including the temporal (12-month) alignment requirement (CNZS-C25.5). CNZS-C29. Companies shall prioritize activity-level actions in decarbonizing electricity consumption. This criterion CNZS-C29 applies to company categories A and B.",
+    "alternate_questions": [
+      "What is CNZS-C29?",
+      "How should companies decarbonize their electricity use under SBTi V2.0?",
+      "What is the hierarchy for electricity decarbonization actions?"
+    ],
+    "tags": [
+      "CNZS-C29",
+      "electricity consumption",
+      "decarbonization",
+      "activity-level actions",
+      "implementation hierarchy",
+      "temporal alignment",
+      "CNZS-C25.5",
+      "value chain",
+      "Category A",
+      "Category B"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0",
+    "source_section": "CNZS-C29 Implementation Hierarchy / Electricity Consumption",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
+  },
+  {
+    "id": "KQ-044",
+    "question": "How must companies define activity pool boundaries for operational and value chain electricity consumption under the Corporate Net-Zero Standard V2.0?",
+    "answer": "Applying the implementation hierarchy to electricity consumption. Intent: To drive meaningful decarbonization of electricity consumption in both operations and value chains by focusing actions on the sources of electricity use while supporting the transition of the systems on which they depend. The relevant criteria set out earlier in this chapter apply equally to electricity-related actions. Companies shall therefore ensure that implementation actions for electricity meet all applicable requirements, including the temporal (12-month) alignment requirement (CNZS-C25.5). Companies shall define activity pool boundaries for their operational (scope 2) and value chain (scope 3) electricity consumption based on deliverability regions. This criterion CNZS-C30 applies to company categories A and B.",
+    "alternate_questions": [
+      "What is CNZS-C30?",
+      "How are deliverability regions used to define electricity activity pool boundaries?",
+      "What boundaries apply to scope 2 and scope 3 electricity consumption?"
+    ],
+    "tags": [
+      "CNZS-C30",
+      "activity pool boundaries",
+      "deliverability regions",
+      "scope 2",
+      "scope 3",
+      "electricity consumption",
+      "operational emissions",
+      "value chain",
+      "Category A",
+      "Category B"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0",
+    "source_section": "CNZS-C30 Implementation Hierarchy / Electricity Activity Pool Boundaries",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
+  },
+  {
+    "id": "KQ-045",
+    "question": "What eligibility criteria must market instruments applied to electricity consumption from an activity pool meet under the Corporate Net-Zero Standard V2.0?",
+    "answer": "Applying the implementation hierarchy to electricity consumption. Intent: To drive meaningful decarbonization of electricity consumption in both operations and value chains by focusing actions on the sources of electricity use while supporting the transition of the systems on which they depend. The relevant criteria set out earlier in this chapter apply equally to electricity-related actions. Companies shall therefore ensure that implementation actions for electricity meet all applicable requirements, including the temporal (12-month) alignment requirement (CNZS-C25.5). CNZS-C31. Companies shall ensure that any market instruments applied to electricity consumption from an activity pool meet eligibility criteria. This criterion CNZS-C31 applies to company categories A and B.",
+    "alternate_questions": [
+      "What is CNZS-C31?",
+      "What criteria apply to energy attribute certificates used for activity pool electricity?",
+      "Are there eligibility rules for market instruments applied to electricity?"
+    ],
+    "tags": [
+      "CNZS-C31",
+      "market instruments",
+      "electricity consumption",
+      "activity pool",
+      "eligibility criteria",
+      "energy attribute certificates",
+      "Category A",
+      "Category B"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0",
+    "source_section": "CNZS-C31 Implementation Hierarchy / Electricity Market Instruments",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
+  },
+  {
+    "id": "KQ-046",
+    "question": "What does the Corporate Net-Zero Standard V2.0 require for calculating and reporting hourly matching of Scope 2 electricity consumption?",
+    "answer": "Scope 2 hourly matching. The intent is to improve transparency on the temporal alignment between electricity consumption and low-carbon electricity (LCE) generation, and to recognize companies that demonstrate leadership in aligning electricity demand with low-carbon supply on an hourly basis. To inform future revisions of the Corporate Net-Zero Standard, the SBTi intends to launch a Call for Evidence to better understand how hourly matching should be deployed in the context of a target-setting program. CNZS-C32 states that companies shall calculate and report the percentage of scope 2 electricity consumption in activity pools with significant electricity use that was contracted or matched with low-carbon electricity on an hourly basis. This criterion CNZS-C32 applies to company category A and is optional for company category B.",
+    "alternate_questions": [
+      "What is CNZS-C32?",
+      "How is hourly matching calculated under SBTi V2.0?",
+      "Which companies must report hourly matching of electricity?"
+    ],
+    "tags": [
+      "CNZS-C32",
+      "hourly matching",
+      "scope 2",
+      "electricity consumption",
+      "low-carbon electricity",
+      "LCE",
+      "activity pools",
+      "temporal alignment",
+      "transparency",
+      "Category A",
+      "Category B"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0",
+    "source_section": "CNZS-C32 Scope 2 Hourly Matching",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
+  },
+  {
+    "id": "KQ-047",
+    "question": "What is the SBTi's optional Scope 2 Hourly Matching recognition program and what must companies indicate regarding participation?",
+    "answer": "Scope 2 hourly matching. The intent is to improve transparency on the temporal alignment between electricity consumption and low-carbon electricity (LCE) generation, and to recognize companies that demonstrate leadership in aligning electricity demand with low-carbon supply on an hourly basis. To inform future revisions of the Corporate Net-Zero Standard, the SBTi intends to launch a Call for Evidence to better understand how hourly matching should be deployed in the context of a target-setting program. CNZS-C33. Companies shall indicate whether they intend to take part in the SBTi's optional Scope 2 Hourly Matching reprogram. This criterion CNZS-C33 is optional for company categories A and B.",
+    "alternate_questions": [
+      "What is CNZS-C33?",
+      "Is the Scope 2 Hourly Matching recognition program mandatory?",
+      "How do companies opt into the SBTi hourly matching program?"
+    ],
+    "tags": [
+      "CNZS-C33",
+      "hourly matching",
+      "scope 2",
+      "recognition program",
+      "optional",
+      "low-carbon electricity",
+      "temporal alignment",
+      "Category A",
+      "Category B"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0",
+    "source_section": "CNZS-C33 Scope 2 Hourly Matching Recognition Program",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
+  },
+  {
+    "id": "KQ-048",
+    "question": "What recognition is available to companies that meet the Scope 2 hourly matching thresholds under the Corporate Net-Zero Standard V2.0?",
+    "answer": "Scope 2 hourly matching. The intent is to improve transparency on the temporal alignment between electricity consumption and low-carbon electricity (LCE) generation, and to recognize companies that demonstrate leadership in aligning electricity demand with low-carbon supply on an hourly basis. To inform future revisions of the Corporate Net-Zero Standard, the SBTi intends to launch a Call for Evidence to better understand how hourly matching should be deployed in the context of a target-setting program. Companies whose reported scope 2 hourly matching percentage of electricity consumption meets the defined recognition thresholds shall be eligible for recognition on the SBTi Dashboard. This criterion CNZS-C34 is optional for company categories A and B.",
+    "alternate_questions": [
+      "What is CNZS-C34?",
+      "How are companies recognized for hourly matching under SBTi V2.0?",
+      "What thresholds must be met for SBTi Dashboard recognition?"
+    ],
+    "tags": [
+      "CNZS-C34",
+      "hourly matching",
+      "scope 2",
+      "recognition",
+      "SBTi Dashboard",
+      "thresholds",
+      "low-carbon electricity",
+      "optional",
+      "Category A",
+      "Category B"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0",
+    "source_section": "CNZS-C34 Scope 2 Hourly Matching Recognition",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
+  },
+  {
+    "id": "KQ-049",
+    "question": "What sustainability criteria must companies apply to bio-based feedstocks under the Corporate Net-Zero Standard V2.0?",
+    "answer": "Sustainability of bio-based feedstocks. Intent: To ensure that bio-based feedstocks used by companies are sourced and managed in a way that supports sustainable production, avoids environmental harm, and enables accurate accounting of land-related emissions and removals. CNZS-C35. Companies shall ensure that bio-based feedstocks meet recognized third-party sustainability criteria, where applicable, and SBTi minimum sustainability criteria. This criterion CNZS-C35 applies to company category A and is optional for company category B.",
+    "alternate_questions": [
+      "What is CNZS-C35?",
+      "Are bio-based feedstocks regulated under SBTi V2.0?",
+      "What third-party standards apply to bio-based feedstocks?"
+    ],
+    "tags": [
+      "CNZS-C35",
+      "bio-based feedstocks",
+      "sustainability criteria",
+      "third-party criteria",
+      "SBTi minimum criteria",
+      "land-related emissions",
+      "Category A",
+      "Category B"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0",
+    "source_section": "CNZS-C35 Sustainability of Bio-Based Feedstocks",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
+  },
+  {
+    "id": "KQ-050",
+    "question": "For Category A, is independent third-party assurance verification required at the end of a company's target timeframe for progress assessment under the Corporate Net-Zero Standard V2.0?",
+    "answer": "At the end of a company's target timeframe, it prepares a progress assessment showing how far it has advanced toward its targets. For Category A companies, the progress assessment is assured by an independent third party.",
+    "alternate_questions": [
+      "Is progress assessment mandatory under SBTi V2.0?",
+      "Who assures the progress assessment for Category A companies?",
+      "What happens at the end of a target cycle under the Corporate Net-Zero Standard?"
+    ],
+    "tags": [
+      "progress assessment",
+      "end-of-cycle",
+      "third-party assurance",
+      "Category A",
+      "target timeframe",
+      "independent assurance"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0",
+    "source_section": "Progress Assessment / End-of-Cycle",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
+  },
+  {
+    "id": "KQ-051",
+    "question": "Under what conditions may companies proceed to set new targets after a progress assessment under the Corporate Net-Zero Standard V2.0?",
+    "answer": "Companies that demonstrate they have applied available levers within their control or influence, and taken credible action to overcome barriers, may proceed to set new targets and continue progressing toward net-zero.",
+    "alternate_questions": [
+      "Can companies set new targets if they missed previous ones?",
+      "What is required to continue in the SBTi framework after a target cycle?",
+      "What happens if a company does not meet its SBTi targets?"
+    ],
+    "tags": [
+      "progress assessment",
+      "new targets",
+      "net-zero",
+      "barriers",
+      "available levers",
+      "credible action",
+      "target cycle"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0",
+    "source_section": "Progress Assessment / Setting New Targets",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
+  },
+  {
+    "id": "KQ-052",
+    "question": "What does the Corporate Net-Zero Standard V2.0 require for target setting at the end of each cycle?",
+    "answer": "At the end of each cycle, companies establish new targets based on their most recent progress to support continued emissions reductions. Companies are strongly encouraged to submit next-cycle targets before their current target timeframes end to avoid gaps between targets.",
+    "alternate_questions": [
+      "When must companies set new targets under SBTi V2.0?",
+      "Can there be a gap between SBTi target cycles?",
+      "How does target cycling work under the Corporate Net-Zero Standard?"
+    ],
+    "tags": [
+      "target cycle",
+      "new targets",
+      "end-of-cycle",
+      "continued emissions reductions",
+      "gaps",
+      "target timeframe"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0",
+    "source_section": "Progress Assessment / End-of-Cycle Target Setting",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
+  },
+  {
+    "id": "KQ-053",
+    "question": "What does the Corporate Net-Zero Standard V2.0 require for annual tracking and reporting of progress against targets?",
+    "answer": "Tracking progress. Intent: To ensure transparent and consistent tracking of progress against validated targets and provide clear visibility into emissions trends and implementation challenges. CNZS-C36. Companies shall track and report progress against targets annually. This criterion CNZS-C36 applies to company categories A and B.",
+    "alternate_questions": [
+      "What is CNZS-C36?",
+      "How often must companies report progress under SBTi V2.0?",
+      "Is annual reporting mandatory under the Corporate Net-Zero Standard?"
+    ],
+    "tags": [
+      "CNZS-C36",
+      "annual reporting",
+      "progress tracking",
+      "targets",
+      "transparency",
+      "emissions trends",
+      "Category A",
+      "Category B"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0",
+    "source_section": "CNZS-C36 Tracking Progress",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
+  },
+  {
+    "id": "KQ-054",
+    "question": "What does the Corporate Net-Zero Standard V2.0 require for assessing and reporting progress at the end of each target cycle?",
+    "answer": "Assessing progress at the end of the target cycle. Intent: To ensure companies transparently assess and communicate progress based on changes in the physical GHG inventory and reporting of implementation actions and associated outcomes, with appropriate assurance where applicable, enabling credible claims. CNZS-C37. Companies shall assess and report progress against targets at the end of each target cycle. This criterion CNZS-C37 applies to company categories A and B, except sub-criteria C37.5 and C37.7, which are Category A only.",
+    "alternate_questions": [
+      "What is CNZS-C37?",
+      "What must companies report at the end of a target cycle?",
+      "How is end-of-cycle progress assessed under SBTi V2.0?"
+    ],
+    "tags": [
+      "CNZS-C37",
+      "end-of-cycle",
+      "progress assessment",
+      "GHG inventory",
+      "implementation actions",
+      "assurance",
+      "credible claims",
+      "Category A",
+      "Category B"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0",
+    "source_section": "CNZS-C37 Assessing Progress at End of Target Cycle",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
+  },
+  {
+    "id": "KQ-055",
+    "question": "Where and how will a company's voluntary Ongoing Emissions Responsibility (OER) recognition program be recognized?",
+    "answer": "The voluntary Ongoing Emissions Responsibility (OER) recognition program will recognize companies for their climate contributions on the SBTi Dashboard.",
+    "alternate_questions": [
+      "What is the OER recognition program?",
+      "How are climate contributions recognized under SBTi V2.0?",
+      "Where is OER recognition displayed?"
+    ],
+    "tags": [
+      "OER",
+      "Ongoing Emissions Responsibility",
+      "recognition program",
+      "SBTi Dashboard",
+      "climate contributions",
+      "voluntary"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0",
+    "source_section": "Ongoing Emissions Responsibility / Recognition",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
+  },
+  {
+    "id": "KQ-056",
+    "question": "What are the three phases of the Ongoing Emissions Responsibility (OER) framework under the Corporate Net-Zero Standard V2.0?",
+    "answer": "TheOER framework has three phases: 1) the optional recognition program effective under the Corporate Net-Zero Standard V2.0; 2) the post-2035 responsibility requirement; and 3) the net-zero residual emissions requirement. The post-2035 requirement takes effect at a future date, while the net-zero requirement applies once scope 1, scope 2, and scope 3 emissions reach residual levels. Both sets of provisions are included to indicate expectations under the Corporate Net-Zero Standard at the relevant stage.",
+    "alternate_questions": [
+      "What is the OER framework?",
+      "What happens after 2035 under the Corporate Net-Zero Standard?",
+      "When does the net-zero residual emissions requirement apply?"
+    ],
+    "tags": [
+      "OER",
+      "Ongoing Emissions Responsibility",
+      "three phases",
+      "post-2035",
+      "residual emissions",
+      "net-zero",
+      "scope 1",
+      "scope 2",
+      "scope 3",
+      "recognition program"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0",
+    "source_section": "Ongoing Emissions Responsibility / Three Phases",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
+  },
+  {
+    "id": "KQ-057",
+    "question": "What are the three recognition levels under the OER optional recognition program and what distinguishes them?",
+    "answer": "Under the OER optional recognition program, companies can earn recognition across three levels – Engaged, Advanced, and Leadership – which are distinguished by the volume of emissions covered. The Leadership level represents the full internalization of the cost of climate change, and all companies are encouraged to strive toward the ambition of this level over time.",
+    "alternate_questions": [
+      "What is the difference between Engaged, Advanced, and Leadership under OER?",
+      "What does the Leadership level mean under the OER program?",
+      "How are OER recognition levels determined?"
+    ],
+    "tags": [
+      "OER",
+      "Engaged",
+      "Advanced",
+      "Leadership",
+      "recognition levels",
+      "emissions covered",
+      "climate change",
+      "internalization"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0",
+    "source_section": "Ongoing Emissions Responsibility / Recognition Levels",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
+  },
+  {
+    "id": "KQ-058",
+    "question": "What are the post-2035 and net-zero target year obligations under the OER framework for Category A companies and companies with net-zero targets?",
+    "answer": "The OER recognition program will remain optional until 2035, after which Category A companies will be required to support eligible carbon removals. The recognition model will operate in parallel to these post-2035 requirements. By their net-zero target year and thereafter, all companies with net-zero targets are expected to reduce emissions to zero or residual levels and neutralize 100% of residual emissions using eligible carbon removals, either directly or jointly with value chain partners.",
+    "alternate_questions": [
+      "When does OER become mandatory for Category A?",
+      "What must companies do at their net-zero target year?",
+      "How must residual emissions be neutralized under the Corporate Net-Zero Standard V2.0?"
+    ],
+    "tags": [
+      "OER",
+      "post-2035",
+      "Category A",
+      "carbon removals",
+      "net-zero target year",
+      "residual emissions",
+      "neutralization",
+      "value chain partners",
+      "eligible carbon removals"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0",
+    "source_section": "Ongoing Emissions Responsibility / Post-2035 and Net-Zero Year Obligations",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
+  },
+  {
+    "id": "KQ-059",
+    "question": "How is recognition under the optional OER program assessed and awarded under the Corporate Net-Zero Standard V2.0?",
+    "answer": "Optional OER recognition program: Eligibility & program structure. Intent: To ensure that recognition is granted only to companies that are delivering against their validated targets and that take responsibility for ongoing emissions by providing climate contributions that support verified mitigation or other climate action at a level aligned with their selected recognition tier. CNZS-C39. Recognition for ongoing emissions responsibility shall be assessed and awarded at the End-of-cycle Assessment based on progress against validated targets and delivery of climate contributions in accordance with a selected recognition level. This criterion CNZS-C39 is part of the optional Ongoing Emissions Responsibility recognition program and is not differentiated by company category. This criterion CNZS-C39 applies to company categories A and B.",
+    "alternate_questions": [
+      "What is CNZS-C39?",
+      "When is OER recognition assessed?",
+      "What must companies deliver to earn OER recognition?"
+    ],
+    "tags": [
+      "CNZS-C39",
+      "OER",
+      "recognition",
+      "End-of-cycle Assessment",
+      "climate contributions",
+      "validated targets",
+      "recognition tier",
+      "verified mitigation",
+      "Category A",
+      "Category B"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0",
+    "source_section": "CNZS-C39 OER Recognition Eligibility & Program Structure",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
+  },
+  {
+    "id": "KQ-060",
+    "question": "What must companies do to participate in the OER recognition program and deliver climate contributions under the Corporate Net-Zero Standard V2.0?",
+    "answer": "Optional OER recognition program. Intent: To ensure that recognition is granted only to companies that are delivering against their validated targets and that take responsibility for ongoing emissions by providing climate contributions that support verified mitigation or other climate action at a level aligned with their selected recognition tier. CNZS-C40. Companies shall select a recognition level and, over the near-term target timeframe, deliver climate contributions at a scale determined by the required coverage of ongoing scope 1, scope 2, and scope 3 emissions and contributions under that level. This criterion CNZS-C40 is part of the optional Ongoing Emissions Responsibility recognition program and is not differentiated by company category.",
+    "alternate_questions": [
+      "What is CNZS-C40?",
+      "How do companies select an OER recognition level?",
+      "What scale of climate contributions is required under the OER program?"
+    ],
+    "tags": [
+      "CNZS-C40",
+      "OER",
+      "recognition level",
+      "climate contributions",
+      "scope 1",
+      "scope 2",
+      "scope 3",
+      "near-term target timeframe",
+      "optional"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0",
+    "source_section": "CNZS-C40 OER Recognition Program / Climate Contributions",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
+  },
+  {
+    "id": "KQ-061",
+    "question": "What are the specific emissions coverage requirements and climate contribution delivery approaches for each of the three OER recognition levels (Engaged, Advanced, and Leadership)?",
+    "answer": "The Ongoing Emissions Responsibility program recognition levels has three recognition levels: Engaged, Advanced, and Leadership. Each level has a required emissions coverage amount and a climate contribution delivery approach. At the Engaged level, companies must cover 1% of their total ongoing emissions. The contribution budget is calculated by multiplying the covered emissions by a dollar amount per tonne of carbon dioxide equivalent, or tCO₂e. However, there is no mandated price set for this level. Companies can meet the requirement either by using the contribution budget approach or by providing verified mitigation outcomes equal in volume to the covered emissions. At the Advanced level, companies must cover 10% of their total ongoing emissions, including 100% of Scope 1 and Scope 2 emissions. The contribution budget is calculated by multiplying covered emissions by $20 per tCO₂e. Companies can meet this level either through the contribution budget approach or by delivering verified mitigation outcomes equal in volume to the covered emissions. At the Leadership level, the coverage requirement depends on the type of company. Category A companies must cover 100% of their total ongoing emissions. Category B companies must cover 10% of their total ongoing emissions, including 100% of Scope 1 and Scope 2 emissions. The contribution budget is calculated by multiplying covered emissions by $80 per tCO₂e. Unlike the lower levels, companies at the Leadership level must use both the contribution budget approach and the verified mitigation approach. This means they must also deliver verified mitigation outcomes equal in volume to the covered emissions.",
+    "alternate_questions": [
+      "What percentage of emissions must be covered at each OER level?",
+      "What is the price per tCO2e at each OER recognition level?",
+      "What is the difference between Engaged, Advanced, and Leadership in the OER program?"
+    ],
+    "tags": [
+      "OER",
+      "Engaged",
+      "Advanced",
+      "Leadership",
+      "emissions coverage",
+      "contribution budget",
+      "tCO2e",
+      "verified mitigation outcomes",
+      "scope 1",
+      "scope 2",
+      "Category A",
+      "Category B",
+      "$20",
+      "$80"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0",
+    "source_section": "OER Recognition Levels / Coverage and Contribution Requirements",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
+  },
+  {
+    "id": "KQ-062",
+    "question": "What types of climate contributions are eligible for recognition under the OER program?",
+    "answer": "CNZS-C41. Companies shall use climate contributions to support only eligible verified mitigation outcomes and/or other eligible climate actions toward recognition under the Ongoing Emissions Responsibility recognition program.",
+    "alternate_questions": [
+      "What is CNZS-C41?",
+      "What qualifies as a climate contribution under the OER program?",
+      "Can any carbon credit be used for OER recognition?"
+    ],
+    "tags": [
+      "CNZS-C41",
+      "OER",
+      "climate contributions",
+      "verified mitigation outcomes",
+      "eligible climate actions",
+      "recognition"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0",
+    "source_section": "CNZS-C41 OER Eligible Climate Contributions",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
+  },
+  {
+    "id": "KQ-063",
+    "question": "What integrity criteria must activities supported under the OER recognition program meet under the Corporate Net-Zero Standard V2.0?",
+    "answer": "Optional OER recognition program: Integrity criteria for supported activities. Intent: To ensure that activities supported under the OER recognition program deliver credible climate impact and adhere to robust integrity and quality standards, safeguarding environmental and social outcomes. CNZS-C42. Companies shall ensure that the activities they support as part of the Ongoing Emissions Responsibility recognition program meet recognized third-party high-integrity criteria, where applicable, and SBTi minimum integrity criteria. This criterion CNZS-C42 is part of the optional Ongoing Emissions Responsibility recognition program and is not differentiated by company category.",
+    "alternate_questions": [
+      "What is CNZS-C42?",
+      "What standards apply to OER-supported activities?",
+      "What is high-integrity under the OER program?"
+    ],
+    "tags": [
+      "CNZS-C42",
+      "OER",
+      "integrity criteria",
+      "third-party",
+      "high-integrity",
+      "SBTi minimum integrity",
+      "environmental outcomes",
+      "social outcomes",
+      "climate impact"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0",
+    "source_section": "CNZS-C42 OER Integrity Criteria for Supported Activities",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
+  },
+  {
+    "id": "KQ-064",
+    "question": "How must companies account for and report verified mitigation outcomes under the OER recognition program?",
+    "answer": "Optional OER recognition program: Accounting & reporting. Intent: To ensure that ongoing emissions responsibility is transparently accounted for and reported separately from inventory and target progress, enabling assessment of conformance with standard requirements. CNZS-C43. Companies taking part in the Ongoing Emissions Responsibility recognition program shall account for supported verified mitigation outcomes separately from inventory and target progress, and prevent double claiming. This criterion CNZS-C43 is part of the optional Ongoing Emissions Responsibility recognition program and is not differentiated by company category.",
+    "alternate_questions": [
+      "What is CNZS-C43?",
+      "How are OER climate contributions reported?",
+      "How does SBTi prevent double claiming under the OER program?"
+    ],
+    "tags": [
+      "CNZS-C43",
+      "OER",
+      "verified mitigation outcomes",
+      "accounting",
+      "reporting",
+      "double claiming",
+      "inventory",
+      "target progress",
+      "transparency"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0",
+    "source_section": "CNZS-C43 OER Accounting & Reporting",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
+  },
+  {
+    "id": "KQ-065",
+    "question": "What must companies do at their net-zero target year to neutralize residual emissions under the Corporate Net-Zero Standard V2.0?",
+    "answer": "Neutralization of residual emissions. Intent: To ensure that a state of net-zero is achieved and maintained through the neutralization of all residual emissions using eligible and integrity-aligned carbon removals. Disclaimer: The SBTi will continue to review and update the criteria and recommendations in this section in line with scientific advancements. CNZS-C46. At the net-zero target year and thereafter, companies shall reduce their scope 1, scope 2, and scope 3 emissions to zero or residual levels, and neutralize all residual emissions using eligible carbon removals.",
+    "alternate_questions": [
+      "What is CNZS-C46?",
+      "How must residual emissions be neutralized under SBTi V2.0?",
+      "What carbon removals are eligible for neutralizing residual emissions?"
+    ],
+    "tags": [
+      "CNZS-C46",
+      "residual emissions",
+      "neutralization",
+      "carbon removals",
+      "net-zero target year",
+      "scope 1",
+      "scope 2",
+      "scope 3",
+      "eligible carbon removals"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0",
+    "source_section": "CNZS-C46 Neutralization of Residual Emissions",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
+  },
+  {
+    "id": "KQ-066",
+    "question": "What is the post-2035 mandatory ongoing emissions responsibility requirement under the Corporate Net-Zero Standard V2.0?",
+    "answer": "Post-2035 responsibility requirement. Intent: To signal future expectations for mandatory ongoing emissions responsibility from 2035 onwards, enabling companies to prepare and build capacity over time. Disclaimer: This illustrative requirement sets the intention for companies to gradually take responsibility for the impact of their ongoing emissions from 2035 onwards. As this requirement is expected to take effect from 2035, the criteria will be reviewed in the next major revision of the Corporate Net-Zero Standard (Version 3) to reflect the best available science at the time. The criterion CNZS-C45 states that from 2035, companies shall support eligible carbon removals equal to at least 1% of ongoing scope 1, scope 2, and scope 3 emissions, including a defined and increasing share of long-lived removals. This criterion CNZS-C45 applies to company category A and is optional for company category B.",
+    "alternate_questions": [
+      "What is CNZS-C45?",
+      "When does mandatory carbon removal support begin under SBTi?",
+      "What percentage of emissions must be covered by carbon removals from 2035?"
+    ],
+    "tags": [
+      "CNZS-C45",
+      "post-2035",
+      "carbon removals",
+      "long-lived removals",
+      "scope 1",
+      "scope 2",
+      "scope 3",
+      "mandatory",
+      "Category A",
+      "Category B"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0",
+    "source_section": "CNZS-C45 Post-2035 Responsibility Requirement",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
+  },
+  {
+    "id": "KQ-067",
+    "question": "What reporting and assurance obligations apply to companies participating in the OER recognition program under the Corporate Net-Zero Standard V2.0?",
+    "answer": "Optional OER recognition program: Accounting & reporting. Intent: To ensure that ongoing emissions responsibility is transparently accounted for and reported separately from inventory and target progress, enabling assessment of conformance with standard requirements. CNZS-C44. Companies taking part in the Ongoing Emissions Responsibility recognition program shall report information and obtain independent assurance to demonstrate conformance with their selected recognition level.",
+    "alternate_questions": [
+      "What is CNZS-C44?",
+      "Is assurance required for OER participation?",
+      "What must companies report to demonstrate OER conformance?"
+    ],
+    "tags": [
+      "CNZS-C44",
+      "OER",
+      "reporting",
+      "independent assurance",
+      "conformance",
+      "recognition level",
+      "transparency"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0",
+    "source_section": "CNZS-C44 OER Accounting & Reporting / Assurance",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
+  },
+  {
+    "id": "KQ-068",
+    "question": "How does the Corporate Net-Zero Standard V2.0 define emissions-intensive activities (EIAs), what emissions boundaries apply, and why are they prioritized?",
+    "answer": "EMISSIONS-INTENSIVE ACTIVITIES. In accordance with the Science Based Targets initiative (SBTi) Corporate Net-Zero Standard, companies identify emissions-intensive activities (EIAs) within their value chains, quantify and report associated emissions, and assess progress against the relevant requirements to ensure these emissions sources are properly accounted for and mitigated. By prioritizing action on these activities, companies can focus their influence on the most significant drivers of global greenhouse gas (GHG) emissions and support systemic decarbonization toward a net-zero economy. Table A.1 defines the Scope 3 EIAs referenced throughout the Corporate Net-Zero Standard and identifies each activity using its corresponding NACE code classification. These activities have been selected because they represent sectors with significant emissions impact and are critical to the global net-zero transition. The list of EIAs may expand over time as SBTi sector guidance and pathways continue to develop. The emissions boundary for each activity is defined according to the nature of the activity to ensure consistent and comprehensive accounting of the most relevant lifecycle stages. Commodities (cradle-to-gate): EIAs in this category include lifecycle emissions from raw material extraction, upstream transport, and manufacturing processes (\"cradle-to-gate\"). These stages correspond to Modules A1 (raw material supply), A2 (transport), and A3 (manufacturing) as defined under EN 15804 and ISO 14025. This boundary captures upstream embedded emissions that would otherwise be excluded under narrower facility-level (\"gate-to-gate\") assessments. Transport (well-to-wheel): EIAs for transport activities include the full lifecycle emissions of the energy carrier used. This includes \"well-to-tank\" emissions from extraction, refining, and distribution of the fuel or electricity, as well as direct emissions from vehicle operation. Together, these emissions are referred to as \"well-to-wheel.\" Sold products (use phase): For sold products, EIAs focus on use-phase emissions. These include emissions from the combustion of sold fossil fuels, such as coal, oil, and gas, or from the electricity and fuel consumed by products during their operational life, such as vehicles or appliances.",
+    "alternate_questions": [
+      "What are emissions-intensive activities under SBTi?",
+      "What emissions boundaries apply to EIAs?",
+      "Why does SBTi prioritize emissions-intensive activities?"
+    ],
+    "tags": [
+      "EIA",
+      "emissions-intensive activities",
+      "value chain",
+      "scope 3",
+      "NACE codes",
+      "cradle-to-gate",
+      "well-to-wheel",
+      "use phase",
+      "sold products",
+      "commodities",
+      "transport",
+      "decarbonization",
+      "lifecycle emissions"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0",
+    "source_section": "Annex A / Emissions-Intensive Activities",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
+  },
+  {
+    "id": "KQ-069",
+    "question": "What must companies report when they have not quantified emissions from emissions-intensive activities (EIAs)?",
+    "answer": "Where companies have not quantified EIA emissions, they are required to report which EIAs have not been quantified and submit an explanation as per C6.2.",
+    "alternate_questions": [
+      "What happens if a company cannot quantify EIA emissions?",
+      "Is disclosure required for unquantified EIAs?",
+      "What is the C6.2 requirement for unquantified EIAs?"
+    ],
+    "tags": [
+      "EIA",
+      "unquantified emissions",
+      "C6.2",
+      "reporting",
+      "disclosure",
+      "value chain",
+      "scope 3"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0",
+    "source_section": "CNZS-C6.2 Unquantified EIA Reporting",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
+  },
+  {
+    "id": "KQ-070",
+    "question": "What are the Scope 3 emissions-intensive activities (EIAs) recognized under the Corporate Net-Zero Standard V2.0, categorized by group (commodities, transport, or sold products) and NACE code?",
+    "answer": "List of scope 3 EIAs, categorized by EIA Group (commodities, transport, or sold products). Note: The list of EIAs is expected to expand over time to reflect ongoing development of SBTi sector resources and pathways. NACE code.",
+    "alternate_questions": [
+      "What EIAs are listed in Table A.1?",
+      "Which sectors are classified as emissions-intensive activities under SBTi?",
+      "What NACE codes correspond to SBTi EIAs?"
+    ],
+    "tags": [
+      "EIA",
+      "scope 3",
+      "commodities",
+      "transport",
+      "sold products",
+      "NACE codes",
+      "Table A.1",
+      "sector classification"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0",
+    "source_section": "Annex A / Table A.1 Scope 3 EIA List",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
+  },
+  {
+    "id": "KQ-071",
+    "question": "What does \"best-efforts basis\" mean under the Corporate Net-Zero Standard V2.0 and what does it require of companies?",
+    "answer": "A best-efforts basis reflects a level of effort demonstrated through the implementation of all actions within a company's control or influence that are necessary and appropriate to implement its targets, including the identification, reporting, and active management of material dependencies and associated risks. Best efforts, real barriers. We have made an explicit choice to recognize that companies do not control everything. Pretending otherwise does not serve anyone. The updated Standard is built on a best-efforts framework. The expectation is clear: companies should set science-based targets, support those targets with reasonable implementation plans, and use every lever within their control. Companies should also be transparent about where real barriers have limited what was possible. They should show what they are doing to address those barriers over time. Companies that take this approach can continue to make progress toward net-zero within the SBTi framework.",
+    "alternate_questions": [
+      "What is a best-efforts framework under SBTi?",
+      "What happens if a company faces barriers to implementing its targets?",
+      "How does SBTi treat companies that cannot fully meet their targets?"
+    ],
+    "tags": [
+      "best-efforts",
+      "barriers",
+      "control",
+      "influence",
+      "implementation",
+      "dependencies",
+      "risks",
+      "transparency",
+      "net-zero",
+      "science-based targets"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0",
+    "source_section": "Best-Efforts Framework",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
+  },
+  {
+    "id": "KQ-072",
+    "question": "How does the Corporate Net-Zero Standard V2.0 clarify the role of market instruments in driving decarbonization beyond the direct supply chain?",
+    "answer": "We have clarified the role of market instruments in driving decarbonization beyond the direct supply chain. Where companies have genuinely exhausted the levers available within their operations and value chains, the updated Standard introduces an implementation hierarchy that enables broader shared-system actions and, where appropriate, sector-level actions. These actions may be supported by market instruments, including energy and commodity certificates based on different chain-of-custody models, such as mass balance and book-and-claim. Their use is subject to the guardrails set out in the Standard. This allows companies to meet targets while supporting market development and helping pull through the technologies that will be critical in the next phase of the net-zero transition.",
+    "alternate_questions": [
+      "When can companies use market instruments under SBTi V2.0?",
+      "What guardrails apply to market instruments under the Corporate Net-Zero Standard?",
+      "What chain-of-custody models are permitted under SBTi V2.0?"
+    ],
+    "tags": [
+      "market instruments",
+      "implementation hierarchy",
+      "shared-system actions",
+      "sector-level actions",
+      "energy certificates",
+      "commodity certificates",
+      "mass balance",
+      "book-and-claim",
+      "guardrails",
+      "decarbonization",
+      "value chain"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0",
+    "source_section": "Catalyzing Market Development / Market Instruments",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
+  },
+  {
+    "id": "KQ-073",
+    "question": "How does the Corporate Net-Zero Standard V2.0 recognize companies that go beyond managing their own transition to actively support system-level decarbonization?",
+    "answer": "We also want to recognize companies that go further: not only those managing their own transition, but also those actively working to change the systems that make decarbonization difficult for everyone. The voluntary Ongoing Emissions Responsibility program is designed for those organizations. It complements companies' own emissions reductions; it does not substitute for them. Companies willing to support carbon finance, which is necessary to achieve international climate objectives, deserve to be recognized for doing so. This Standard now provides that recognition.",
+    "alternate_questions": [
+      "Does SBTi recognize carbon finance contributions?",
+      "Is the OER program a substitute for emissions reductions?",
+      "How does SBTi support companies that go beyond their own value chain?"
+    ],
+    "tags": [
+      "OER",
+      "Ongoing Emissions Responsibility",
+      "carbon finance",
+      "system-level decarbonization",
+      "recognition",
+      "voluntary",
+      "international climate objectives",
+      "emissions reductions"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0",
+    "source_section": "Catalyzing Market Development / OER Recognition",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
+  },
+  {
+    "id": "KQ-074",
+    "question": "What are the three target-setting options for Scope 1 near-term targets under the Corporate Net-Zero Standard V2.0 and how do they work?",
+    "answer": "Scope 1 target setting. This aims to transition companies to net-zero scope 1 emissions by 2050 or sooner. There are three options for companies to choose from when setting near-term targets is absolute emissions reduction, which is a straight-line emissions trajectory from the target base year to the net-zero year. There are three options for companies to choose from when setting near-term targets is emissions intensity reduction, where companies may choose to follow sector emissions-intensity pathways designed to reflect sector-specific emissions reduction opportunities (e.g., for steel, cement, or chemicals). There are three options for companies to choose from when setting near-term targets is asset transition, which is for companies whose capital stock turnover does not follow a linear or sector pathway, where companies design their transition plan to operate existing assets efficiently and replace them with low-carbon assets, using predetermined milestones (e.g., timelines to phase out investment in new greenhouse gas (GHG)–emitting assets and operation of existing assets) and/or a carbon budget derived from (a) science-based pathway(s); this approach will entail setting a quantitative target, namely, the emissions reduction for the target cycle, defined within the transition plan, and the SBTi does not expect companies to publish detailed investment plans, given commercial sensitivity. All three approaches work toward a net-zero year of 2050 at the latest. Companies may choose to set a long-term scope 1 target for 2050 or earlier. Where a near-term emissions intensity or asset transition target is set, companies are required to set a long-term target.",
+    "alternate_questions": [
+      "What is absolute emissions reduction under SBTi scope 1?",
+      "What is the asset transition approach for scope 1 targets?",
+      "When must companies set a long-term scope 1 target?"
+    ],
+    "tags": [
+      "scope 1",
+      "near-term targets",
+      "absolute emissions reduction",
+      "emissions intensity reduction",
+      "asset transition",
+      "capital stock",
+      "carbon budget",
+      "net-zero",
+      "2050",
+      "long-term targets",
+      "sector pathways"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0",
+    "source_section": "Scope 1 Target Setting / Three Options",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
+  },
+  {
+    "id": "KQ-075",
+    "question": "What are the target-setting options, procurement rules, and matching requirements for Scope 2 emissions under the Corporate Net-Zero Standard V2.0?",
+    "answer": "Scope 2 target setting. The target-setting options for scope 2 emissions support the transition toward low-carbon electricity use over time. Low-carbon electricity may include renewable and nuclear energy, as well as electricity generation fitted with carbon capture and storage. Companies may choose to set targets based on emissions reductions and/or increases in the share of low-carbon electricity, including optional long-term targets to reach 100% low-carbon electricity or residual levels of scope 2 emissions. Targets can be implemented either through investment in low-carbon power generation or contracts (e.g., power purchase agreements, contracts for difference, renewable energy certificates). Contracts for plants up to 15 years of age are allowed, to align with other frameworks and match project business cases or finance periods; power purchase agreements can be longer where these are for plants less than 36 months into operation. Existing contracts will be grandfathered for the duration of the contract, meaning they will not need to meet new requirements. There are conditions about procurement being in the same system as consumption, defined on the basis of deliverability regions. One exception to this is where a company can show it has transmission interconnection rights to a neighboring deliverability region. Similarly, when it is more practical to aggregate load across regions and sign a single long-term contract, companies may do so. Where structural barriers exist, such as insufficient supply of low-carbon electricity relative to demand, companies may take sector-level actions (e.g., purchasing from other systems). Hourly matching of power contracts with consumption is generally preferable to annual matching, as it can support more effective price signals for load shifting and investment in low-carbon generation and storage, and better align electricity demand with low-carbon supply. To improve transparency as practices develop, companies with significant electricity use are required to report the share of electricity consumption matched with low-carbon electricity on an hourly basis. Companies demonstrating leadership in this area may seek SBTi recognition for achieving certain levels of hourly matching.",
+    "alternate_questions": [
+      "What counts as low-carbon electricity under SBTi V2.0?",
+      "Can companies use power purchase agreements for scope 2 targets?",
+      "What are the deliverability region rules for scope 2 procurement?"
+    ],
+    "tags": [
+      "scope 2",
+      "low-carbon electricity",
+      "renewable energy",
+      "nuclear",
+      "carbon capture",
+      "power purchase agreements",
+      "contracts for difference",
+      "renewable energy certificates",
+      "deliverability regions",
+      "hourly matching",
+      "annual matching",
+      "grandfathering",
+      "structural barriers",
+      "sector-level actions"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0",
+    "source_section": "Scope 2 Target Setting / Options and Procurement Rules",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
+  },
+  {
+    "id": "KQ-076",
+    "question": "What exclusions are permitted when setting Scope 3 near-term targets under the Corporate Net-Zero Standard V2.0?",
+    "answer": "Scope 3 target setting. The intention is to transition companies to net-zero by 2050 or sooner for their scope 3 emissions. Companies may choose to make limited, justified exclusions from their near-term targets to focus on the most material emissions sources in their value chain and areas where they have influence. Examples of these exclusions include any categories that individually account for less than 5% of total scope 3 emissions. Examples of these exclusions include Category 3 (fuel- and energy-related activities), provided these emissions are mitigated through energy consumption reductions under scope 1 or scope 2 targets.",
+    "alternate_questions": [
+      "Can companies exclude scope 3 categories from their targets?",
+      "What is the 5% exclusion rule for scope 3 targets?",
+      "Can Category 3 emissions be excluded from scope 3 targets?"
+    ],
+    "tags": [
+      "scope 3",
+      "exclusions",
+      "near-term targets",
+      "material emissions",
+      "value chain",
+      "5% threshold",
+      "Category 3",
+      "fuel and energy-related activities",
+      "scope 1",
+      "scope 2"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0",
+    "source_section": "Scope 3 Target Setting / Permitted Exclusions",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
+  },
+  {
     "id": "kt-001",
     "question": "What is Action?",
     "answer": "A measure taken by a company to reduce emissions or support the scale-up of net-zero-aligned practices or technologies within its operations, value chains, activity pools, or sectors. Actions may include, but are not limited to, operational changes, investments, purchasing decisions, or the use of market instruments where permitted (adapted from GHG Protocol, 2026). Note: Actions can also be referred to as interventions (AIM Platform, 2026).",
@@ -4682,5 +6114,136 @@
     "reviewer": "",
     "last_reviewed": "",
     "version": "1"
+  },
+  {
+    "id": "MC-001",
+    "question": "When does Corporate Net-Zero Standard V2.0 take effect and what are the transition period dates for continued V1 submissions?",
+    "answer": "Corporate Net-Zero Standard V2.0 will be in effect as of 31 January 2027. Corporate Net-Zero Standard V2.0 has a transition period between Q1 2027 and Q1 2028. This means target validations against Corporate Net-Zero Standard V2.0 will be available in Q1 2027 but companies may continue to submit against Near-Term Criteria V5.3 and Corporate Net-Zero Standard V1.3.1 until 31 January 2028.",
+    "alternate_questions": [
+      "When is V2.0 effective?",
+      "What is the transition timeline from V1 to V2?",
+      "Until when can companies submit targets under V1.3.1?"
+    ],
+    "tags": [
+      "V2.0",
+      "effective date",
+      "transition period",
+      "Q1 2027",
+      "Q1 2028",
+      "Near-Term Criteria V5.3",
+      "V1.3.1",
+      "31 January 2027",
+      "31 January 2028",
+      "target validation"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0 — Main Changes Document",
+    "source_section": "Implementation Timeline",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
+  },
+  {
+    "id": "MC-002",
+    "question": "What are the key changes of the revision of the Corporate Net-Zero Standard V2.0?",
+    "answer": "CHANGES IN V2.0 OF CORPORATE NET-ZERO STANDARD\n\nIn Section B, \"Standard & System Overview,\" the change in the V2.0 Corporate Net-Zero Standard is identified as new. There is no criterion number listed. The details and rationale of the revision are: V2.0 adds a dedicated architecture chapter covering terminology, assurance, claims, sector standards, applicability, and governance of the SBTi system.\n\nIn Section B.3, \"Scope of the Standard — company categorization,\" the change in the V2.0 Corporate Net-Zero Standard is identified as a modified existing approach. There is no criterion number listed. The details and rationale of the revision are: V1 approached SMEs separately, while V2 introduces formal company categorization (Category A and B) with differentiated obligations based on turnover, geography, emissions, and employee thresholds.\n\nIn Section B.3, \"Scope of the Standard — Fossil fuel company applicability,\" the change in the V2.0 Corporate Net-Zero Standard is identified as a modified existing approach. There is no criterion number listed. The details and rationale of the revision are: V2 formalizes restrictions into the scope section of the standard for fossil fuel companies by explicitly linking them to a dedicated Fossil Fuel Policy. This replaces C36 and C37.\n\nIn Section B.4, \"Assurance model,\" the change in the V2.0 Corporate Net-Zero Standard is identified as new. There is no criterion number listed. The details and rationale of the revision are: V2 introduces a formalized assurance model with target validation and end-of-cycle assessments conducted by recognized validation bodies.\n\nIn Section 1, \"Net-zero governance,\" the change in the V2.0 Corporate Net-Zero Standard is identified as new. The related criterion numbers are CNZS-C1 and C2. The details and rationale of the revision are: V2 introduces mandatory governance, board accountability, transition planning, and disclosure requirements that were not explicit criteria in V1.\n\nIn Section 2.1, \"Organizational and operational boundaries,\" the change in the V2.0 Corporate Net-Zero Standard is identified as a modified existing approach. The related criterion number is CNZS-C3. The details and rationale of the revision are: V2 expands and formalizes requirements on organizational boundaries, subsidiaries, and parent company disclosure.\n\nIn Section 2.2, \"Selecting a target base year,\" the change in the V2.0 Corporate Net-Zero Standard is identified as a modified existing approach. The related criterion number is CNZS-C4. The details and rationale of the revision are: V2 replaces the historical base year approach with a target base year based on the most recent comprehensive data available. V2 allows companies to continue communicating targets relative to earlier historical reference years if equivalence is validated.\n\nIn Section 2.3, \"Target base year GHG inventory,\" the change in the V2.0 Corporate Net-Zero Standard is identified as a modified existing approach. The related criterion number is CNZS-C5. The details and rationale of the revision are: V2 expands inventory requirements to include low-carbon electricity metrics, physical inventories, market instruments (to be reported separately), and Land Sector and Removals Standard (LSRS) -aligned accounting.\n\nIn Section 2.4, \"Identification of EIAs,\" the change in the V2.0 Corporate Net-Zero Standard is identified as new. The related criterion number is CNZS-C6. The details and rationale of the revision are: For Category A companies, V2 introduces mandatory identification and quantification of emissions-intensive activities (EIAs), and reporting of EIAs that represent ≥5% of scope 3 emissions.\n\nIn Section 2.5, \"Third-party assurance,\" the change in the V2.0 Corporate Net-Zero Standard is identified as new. The related criterion number is CNZS-C7. The details and rationale of the revision are: V2 introduces mandatory limited assurance requirements for Category A companies covering inventories and target-setting metrics.\n\nIn Section 2.6, \"Target base year recalculation,\" the change in the V2.0 Corporate Net-Zero Standard is identified as a modified existing approach. The related criterion number is CNZS-C8. The details and rationale of the revision are: V2 strengthens the target base year recalculation requirements by introducing a differentiated approach to significant changes that trigger the target base year and associated metrics reassessment across the target cycle.\n\nIn Section 3.2, \"Scope 1 targets,\" the change in the V2.0 Corporate Net-Zero Standard is identified as new. The related criterion numbers are CNZS-C10 & CNZS-C11. The details and rationale of the revision are: V2 introduces separate scope 1 targets (in contrast to combined scope 1 and 2 targets in V1) covering 100% of a company's direct emissions. It retains the options to set absolute emissions reduction or emissions intensity targets, but includes an asset transition option for sectors with long-lived capital stock where linear reduction approaches may not be appropriate. In contrast to V1, long-term targets are required only for companies setting near-term scope 1 emissions intensity or asset transition targets.\n\nIn Section 3.3, \"Scope 2 targets,\" the change in the V2.0 Corporate Net-Zero Standard is identified as a modified existing approach. The related criterion numbers are CNZS-C12 & CNZS-C13. The details and rationale of the revision are: V2 introduces separate scope 2 targets (in contrast to combined scope 1 and 2 targets in V1) that cover 100% of a company's purchased electricity, heat, steam, and cooling. V2 retains the option to set either an emissions target or an alignment target, and revises alignment targets from renewable to low-carbon electricity. Category A companies that are rapidly increasing their electricity demand (in excess of 20% p.a.) are required to set emissions targets. The option to set emissions intensity targets has been removed from V2. In contrast to V1, scope 2 emissions targets are based only on the physical (i.e., location-based) inventory. Requirements for using market instruments in scope 2 targets are addressed in the implementation hierarchy in Chapter 4.\n\nIn Section 3.4, \"Scope 3 targets — target boundary,\" the change in the V2.0 Corporate Net-Zero Standard is identified as a modified existing approach. The related criterion number is CNZS-C14. The details and rationale of the revision are: V2 replaces fixed-percentage coverage thresholds with a significance-based approach, requiring coverage of all scope 3 categories that represent ≥5% of categories 1–14 emissions. It introduces specific optional exclusions within named categories (3, 7, 8, 9, 10, 14) where companies lack the practical ability to influence outcomes, with the requirement to report and justify each exclusion.\n\nIn Section 3.4, \"Scope 3 targets — target-setting options,\" the change in the V2.0 Corporate Net-Zero Standard is identified as a modified existing approach / new. The related criterion number is CNZS-C15. The details and rationale of the revision are: V2 expands supplier/customer engagement targets into broader supplier/customer alignment pathways, measuring share of \"in-transition\" or \"net-zero aligned\" suppliers/customers. V2 also introduces new volume, product use, and product end-of-life alignment methods, providing actionable metrics tied to direct commercial levers, alongside emissions reduction targets. Where companies can demonstrate that no downstream option is reasonably applicable to Category 11 (use of sold products), a tightly constrained exception may be sought, subject to SBTi approval, with mandatory long-term targets, transition plan milestones, and annual emissions reporting. The scope 3 economic & physical intensity methods (based on a 7% year-on-year intensity reduction in annual compounded terms) were removed due to the lack of science-based reference pathways for these metrics. In contrast to V1, long-term scope 3 targets are optional for all companies.\n\nIn Section 3.5, \"Target revision,\" the change in the V2.0 Corporate Net-Zero Standard is identified as a modified existing approach. The related criterion number is CNZS-C20. The details and rationale of the revision are: V2 retires the mandatory five-year target review requirement as all targets are set on a 5-year basis. A continuous evaluation approach focused on identifying significant changes that may cause targets to become non-conformant with the CNZS and results in target validation, which is a modification of the triggered target recalculation.\n\nIn Section 4, \"Target implementation,\" the change in the V2.0 Corporate Net-Zero Standard is identified as new. The related criterion numbers are CNZS-C21 - C24. The details and rationale of the revision are: V2 introduces an implementation hierarchy to structure the actions companies take to reach their targets across all scopes. The hierarchy prioritizes direct, activity-level emissions reductions before allowing actions within shared systems (activity pools) or at the sector level, which are only permitted when structural constraints exist.\n\nIn Section 4, \"Target implementation — Actions and Market instruments integrity criteria,\" the change in the V2.0 Corporate Net-Zero Standard is identified as new. The related criterion numbers are CNZS-C25 - C28. The details and rationale of the revision are: V2 establishes comprehensive integrity criteria for all actions, projects, and market instruments used to support target implementation. It ensures verifiability, temporal alignment, and the prevention of double-counting across all actions. Projects are required to result in measurable reductions/removals, meet additionality, address leakage and be reflected in the physical GHG inventory for scopes 1 and 2. Furthermore, V2 now recognizes use of market instruments and certificates, provided they accurately convey emissions attributes, use volume matching and are handled through transparent, secure tracking registries.\n\nIn Section 4, \"Target implementation (application to electricity),\" the change in the V2.0 Corporate Net-Zero Standard is identified as new. The related criterion numbers are CNZS-C29-CNZS-C34. The details and rationale of the revision are: Electricity receives a normative application of some of the general criteria in the implementation hierarchy, acknowledging electricity as a universal input across operations and value chains and for which market-based accounting is well-established. The application to electricity defines what market instruments can be used (e.g., physical/financial power purchase agreements, low-carbon electricity contracts with electricity suppliers, or unbundled energy attribute certificate purchases), and criteria to qualify them in activity pool action (e.g., geographic matching requirements and a 15-year generator age limit). The application to electricity also includes a requirement for significant electricity users to measure and disclose their low-carbon electricity performance measured using hourly accounting intervals, as well as optional recognition for companies meeting certain thresholds.\n\nIn Section 4, \"Target implementation (bio-based feedstocks),\" the change in the V2.0 Corporate Net-Zero Standard is identified as new. The related criterion number is CNZS-C35 Sustainability of bio-based feedstocks. The details and rationale of the revision are: V2 introduces a requirement ensuring that any bio-based feedstocks used for target implementation meet recognized third-party and SBTi minimum sustainability criteria, specifically prohibiting association with deforestation or the conversion of natural ecosystems.\n\nIn Section 5, \"Reporting & assessing target progress,\" the change in the V2.0 Corporate Net-Zero Standard is identified as a modified existing approach. The related criterion number is CNZS-C36. The details and rationale of the revision are: V2 significantly expands annual reporting requirements by introducing more granular and structured disclosures on target progress following target validation, including a description of actions towards the targets and faced barriers.\n\nIn Section 5, \"Reporting & assessing target progress,\" the change in the V2.0 Corporate Net-Zero Standard is identified as new. The related criterion number is CNZS-C37. The details and rationale of the revision are: V2 introduces a new end-of-cycle assessment requirement establishing a structured process for evaluating and reporting target progress at the end of each target cycle, supported by full-scope GHG inventories, separate reporting of actions and instruments, and enhanced transparency on barriers and target implementation outcomes, including a provision of enabled claims. It also includes the requirement of third-party assurance to substantiate the progress assessments for category A companies.\n\nIn Sections 6.1 - 6.4, \"Ongoing emissions responsibility,\" the change in the V2.0 Corporate Net-Zero Standard is identified as a modified existing approach. The related criterion is OER recognition program (CZNS-C39 - C44). The details and rationale of the revision are: V2 standardizes the \"beyond value chain mitigation\" recommendation into a broader \"ongoing emissions responsibility\" optional recognition framework, including voluntary recognition for companies delivering climate contributions.\n\nIn Section 6.6, \"Post-2035: Responsibility Requirement,\" the change in the V2.0 Corporate Net-Zero Standard is identified as a modified existing approach. The related criterion is Post-2035 responsibility requirement (CNZ-C45). The details and rationale of the revision are: V2 standardizes the \"neutralization milestones\" recommendation into a broader \"ongoing emissions responsibility\" framework with a mandatory removal requirement for Category A companies from 2035 onward.\n\nIn Section 6.6, \"Neutralization of residual emissions,\" the change in the V2.0 Corporate Net-Zero Standard is identified as a modified existing approach. The related criterion number is CNZS-C46. The details and rationale of the revision are: V2 integrates neutralization into the broader OER framework and expands the neutralization requirement previously included in V1 by introducing detailed requirements that establish expected storage durability of carbon removal activities, responsibility for the neutralization of direct and indirect emissions, double-counting conditions and neutralization reporting requirements.",
+    "alternate_questions": [
+      "What changed between V1 and V2 of the Corporate Net-Zero Standard?",
+      "What are the main revisions in CNZS V2.0?",
+      "What is new or modified in the Corporate Net-Zero Standard V2.0?",
+      "What is new in this Standard?",
+      "What are the key innovations introduced in V2.0?",
+      "What are the key innovations in Corporate Net-Zero Standard V2.0?"
+    ],
+    "tags": [
+      "main changes",
+      "Section B",
+      "company categorization",
+      "Category A",
+      "Category B",
+      "fossil fuel",
+      "Fossil Fuel Policy",
+      "assurance model",
+      "net-zero governance",
+      "CNZS-C1",
+      "CNZS-C2",
+      "CNZS-C3",
+      "CNZS-C4",
+      "CNZS-C5",
+      "CNZS-C6",
+      "CNZS-C7",
+      "CNZS-C8",
+      "CNZS-C10",
+      "CNZS-C11",
+      "CNZS-C12",
+      "CNZS-C13",
+      "CNZS-C14",
+      "CNZS-C15",
+      "CNZS-C20",
+      "CNZS-C21",
+      "CNZS-C25",
+      "CNZS-C29",
+      "CNZS-C35",
+      "CNZS-C36",
+      "CNZS-C37",
+      "CNZS-C39",
+      "CNZS-C45",
+      "CNZS-C46",
+      "scope 1",
+      "scope 2",
+      "scope 3",
+      "EIA",
+      "implementation hierarchy",
+      "market instruments",
+      "electricity",
+      "bio-based feedstocks",
+      "neutralization",
+      "OER",
+      "ongoing emissions responsibility",
+      "transition planning",
+      "board accountability",
+      "third-party assurance",
+      "target base year",
+      "recalculation",
+      "reporting",
+      "end-of-cycle assessment"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0 — Main Changes Document",
+    "source_section": "Section B / Sections 1–6",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
+  },
+  {
+    "id": "TR-001",
+    "question": "What legal liability does SBTi accept for the accuracy, completeness, or fitness for purpose of its Corporate Net-Zero Standard V2.0 documentation?",
+    "answer": "Although reasonable care was taken in the preparation of this document, the Science Based Targets initiative (SBTi) affirms that the document is provided without representation or warranty, either expressed or implied, of the contents of this document, including its accuracy, completeness, sufficiency or fitness for purpose. The SBTi hereby further disclaims any and all duty, liability or responsibility (whatsoever), whether direct or indirect, whether arising in tort, contract or statute or otherwise, for damages or loss relating to the use of this document or any statement or otherwise to the fullest extent permitted by law.\n\nThe information (including data) contained in this document is not intended to constitute or form the basis of any advice (legal, financial or otherwise). The SBTi does not accept any duty, liability or responsibility for any claim or loss (whether direct or indirect) arising from any use of or reliance on any data or information contained in this document.\n\nThis document is protected by copyright. Information or material from this document may be reproduced only in unaltered form for personal, non-commercial use. All other rights are reserved. Information or material used from this document may be used only for the purposes of private study, research, criticism, or review permitted under the Copyright Designs & Patents Act 1988 as amended from time to time ('Copyright Act'). Any reproduction permitted in accordance with the Copyright Act shall acknowledge this document as the source of any selected passage, extract, diagram, content or other information.\n\nAll information, opinions and views expressed herein by SBTi are based on its judgment at the time this document was prepared and is subject to change without notice due to economic, political, industry, or firm-specific factors.",
+    "alternate_questions": [
+      "Does SBTi take responsibility for errors in its standard?",
+      "What is SBTi's disclaimer on its net-zero documentation?",
+      "Is SBTi liable if companies rely on its standard and suffer losses?"
+    ],
+    "tags": [
+      "disclaimer",
+      "liability",
+      "warranty",
+      "accuracy",
+      "completeness",
+      "fitness for purpose",
+      "legal responsibility",
+      "copyright",
+      "SBTi",
+      "change without notice"
+    ],
+    "source": "SBTi Corporate Net-Zero Standard V2.0 — Continuing Use of V1.3.1 and Transition to V2",
+    "source_section": "Legal Disclaimer",
+    "status": "approved",
+    "owner": "",
+    "reviewer": "",
+    "last_reviewed": "",
+    "version": "2.0"
   }
 ]
