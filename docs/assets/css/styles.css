@@ -31,17 +31,17 @@ body {
 
 .hero__ribbon {
   position: absolute;
-  top: 38px;
-  right: -62px;
+  top: 48px;
+  right: -56px;
   transform: rotate(45deg);
-  background: #fff;
-  color: #15213d;
+  background: #c0392b;
+  color: #fff;
   font-weight: 700;
-  font-size: .78rem;
+  font-size: 1rem;
   letter-spacing: .06em;
   text-transform: uppercase;
-  padding: 8px 78px;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, .2);
+  padding: 12px 90px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, .3);
   white-space: nowrap;
 }
 
